@@ -8,7 +8,7 @@ Tags: custom-colors, custom-header,  footer-widgets, full-width-template, one-co
 
 Requires at least: 4.3
 Tested up to: 4.9.2
-Stable tag: 1.0.6
+Stable tag: 1.0.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -64,6 +64,9 @@ Other Images:
 2. You wll find different options in customizer
 
 == Changelog ==
+= 1.0.7 - 2018/01/28 =
+	* Added - Social media icon added
+	* Fix - Search icon design issue fix
 = 1.0.6 - 2018/01/26 =
 	* Fix - Widget filter parameter missing issue
 	* Fix - Remove core color section undo
