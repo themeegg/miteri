@@ -1,0 +1,34 @@
+/*Vendor
+01:	Reset Style
+02: Typography Style
+03: Elements Style
+04:	Layout Style
+05: Header Style
+06: Content Style
+07: Footer Style
+08: Widgets Style
+09: Forms Style
+10: Comments Style
+11: Media Style
+12: Responsive Style
+*/
+@import "core/variables";
+@import "core/mixins";
+@import "core/reset";
+@import "core/typography";
+@import "core/elements";
+@import "core/layout";
+@import "core/header";
+@import "core/content";
+@import "core/footer";
+@import "core/widgets";
+@import "core/forms";
+@import "core/comments";
+@import "core/media";
+@import "core/core-override";
+@import "core/responsive";
+
+
+
+
+
