@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: themeeggofficial@gmail.com\n"
-"POT-Creation-Date: 2018-01-26 09:13:55+00:00\n"
+"POT-Creation-Date: 2018-01-28 10:31:35+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -58,39 +58,39 @@ msgstr ""
 msgid "Main Menu"
 msgstr ""
 
-#: functions.php:172
+#: functions.php:176
 msgid "Sidebar"
 msgstr ""
 
-#: functions.php:174
+#: functions.php:178
 msgid "Add widgets here to appear in your sidebar."
 msgstr ""
 
-#: functions.php:181
+#: functions.php:185
 msgid "Footer Widget Area 1"
 msgstr ""
 
-#: functions.php:183 functions.php:192 functions.php:201
+#: functions.php:187 functions.php:196 functions.php:205
 msgid "Add widgets here to appear in your footer."
 msgstr ""
 
-#: functions.php:190
+#: functions.php:194
 msgid "Footer Widget Area 2"
 msgstr ""
 
-#: functions.php:199
+#: functions.php:203
 msgid "Footer Widget Area 3"
 msgstr ""
 
-#: functions.php:287
+#: functions.php:291
 msgid "Home"
 msgstr ""
 
-#: functions.php:351
+#: functions.php:355
 msgid "Read More"
 msgstr ""
 
-#: functions.php:492
+#: functions.php:496
 msgid "Y"
 msgstr ""
 
@@ -98,165 +98,223 @@ msgstr ""
 msgid "Skip to content"
 msgstr ""
 
-#: inc/customizer.php:34
+#: inc/customizer/customizer.php:53
 msgid "Site Title"
 msgstr ""
 
-#: inc/customizer.php:46
+#: inc/customizer/customizer.php:65
 msgid "Miteri Links"
 msgstr ""
 
-#: inc/customizer.php:56
+#: inc/customizer/customizer.php:75
 msgid "Theme Settings"
 msgstr ""
 
-#: inc/customizer.php:62 inc/customizer.php:365
+#: inc/customizer/customizer.php:81 inc/customizer/customizer.php:400
 msgid "General"
 msgstr ""
 
-#: inc/customizer.php:75
+#: inc/customizer/customizer.php:94
 msgid "Display Read More Link"
 msgstr ""
 
-#: inc/customizer.php:82 inc/customizer.php:370
+#: inc/customizer/customizer.php:101 inc/customizer/customizer.php:405
 msgid "Header"
 msgstr ""
 
-#: inc/customizer.php:85
+#: inc/customizer/customizer.php:104
 msgid "Header settings."
 msgstr ""
 
-#: inc/customizer.php:95 inc/customizer.php:238 inc/customizer.php:304
+#: inc/customizer/customizer.php:114 inc/customizer/customizer.php:273
+#: inc/customizer/customizer.php:339
 msgid "Style"
 msgstr ""
 
-#: inc/customizer.php:99
+#: inc/customizer/customizer.php:118
 msgid "Header Layout 1 (Center align layout)"
 msgstr ""
 
-#: inc/customizer.php:100
+#: inc/customizer/customizer.php:119
 msgid "Header Layout 2 (Left align layout)"
 msgstr ""
 
-#: inc/customizer.php:106
+#: inc/customizer/customizer.php:130
+msgid "Enable/disable social media on header"
+msgstr ""
+
+#: inc/customizer/customizer.php:134
+msgid "Enable"
+msgstr ""
+
+#: inc/customizer/customizer.php:135
+msgid "Disable"
+msgstr ""
+
+#: inc/customizer/customizer.php:141
 msgid "Blog"
 msgstr ""
 
-#: inc/customizer.php:109
+#: inc/customizer/customizer.php:144
 msgid "Settings for Blog Posts Index Page."
 msgstr ""
 
-#: inc/customizer.php:119 inc/customizer.php:173
+#: inc/customizer/customizer.php:154 inc/customizer/customizer.php:208
 msgid "Post Layout"
 msgstr ""
 
-#: inc/customizer.php:123 inc/customizer.php:177
+#: inc/customizer/customizer.php:158 inc/customizer/customizer.php:212
 msgid "List"
 msgstr ""
 
-#: inc/customizer.php:124 inc/customizer.php:178
+#: inc/customizer/customizer.php:159 inc/customizer/customizer.php:213
 msgid "Grid"
 msgstr ""
 
-#: inc/customizer.php:125 inc/customizer.php:179
+#: inc/customizer/customizer.php:160 inc/customizer/customizer.php:214
 msgid "Large"
 msgstr ""
 
-#: inc/customizer.php:136 inc/customizer.php:190 inc/customizer.php:255
-#: inc/customizer.php:321
+#: inc/customizer/customizer.php:171 inc/customizer/customizer.php:225
+#: inc/customizer/customizer.php:290 inc/customizer/customizer.php:356
 msgid "Sidebar Position"
 msgstr ""
 
-#: inc/customizer.php:140 inc/customizer.php:194 inc/customizer.php:259
-#: inc/customizer.php:326
+#: inc/customizer/customizer.php:175 inc/customizer/customizer.php:229
+#: inc/customizer/customizer.php:294 inc/customizer/customizer.php:361
 msgid "Right Sidebar"
 msgstr ""
 
-#: inc/customizer.php:141 inc/customizer.php:195 inc/customizer.php:260
-#: inc/customizer.php:327
+#: inc/customizer/customizer.php:176 inc/customizer/customizer.php:230
+#: inc/customizer/customizer.php:295 inc/customizer/customizer.php:362
 msgid "Left Sidebar"
 msgstr ""
 
-#: inc/customizer.php:142 inc/customizer.php:196 inc/customizer.php:262
+#: inc/customizer/customizer.php:177 inc/customizer/customizer.php:231
+#: inc/customizer/customizer.php:297
 msgid "No Sidebar Full width"
 msgstr ""
 
-#: inc/customizer.php:153 inc/customizer.php:207
+#: inc/customizer/customizer.php:188 inc/customizer/customizer.php:242
 msgid "Excerpt length"
 msgstr ""
 
-#: inc/customizer.php:160
+#: inc/customizer/customizer.php:195
 msgid "Categories & Archives"
 msgstr ""
 
-#: inc/customizer.php:163
+#: inc/customizer/customizer.php:198
 msgid "Settings for Category, Tag, Search and Archive Pages."
 msgstr ""
 
-#: inc/customizer.php:214
+#: inc/customizer/customizer.php:249
 msgid "Post"
 msgstr ""
 
-#: inc/customizer.php:226 inc/customizer.php:292
+#: inc/customizer/customizer.php:261 inc/customizer/customizer.php:327
 msgid "Display Featured Image"
 msgstr ""
 
-#: inc/customizer.php:242 inc/customizer.php:308
+#: inc/customizer/customizer.php:277 inc/customizer/customizer.php:343
 msgid "Large Featured Image"
 msgstr ""
 
-#: inc/customizer.php:243 inc/customizer.php:309
+#: inc/customizer/customizer.php:278 inc/customizer/customizer.php:344
 msgid "Full width Featured Image"
 msgstr ""
 
-#: inc/customizer.php:261
+#: inc/customizer/customizer.php:296
 msgid "No Sidebar Centered"
 msgstr ""
 
-#: inc/customizer.php:273
+#: inc/customizer/customizer.php:308
 msgid "Display Author Bio"
 msgstr ""
 
-#: inc/customizer.php:280
+#: inc/customizer/customizer.php:315
 msgid "Page"
 msgstr ""
 
-#: inc/customizer.php:322
+#: inc/customizer/customizer.php:357
 msgid ""
 "Sidebar options for Static Pages. To remove the Sidebar apply No Sidebar "
 "Template to the Page."
 msgstr ""
 
-#: inc/customizer.php:338
+#: inc/customizer/customizer.php:373
 msgid "Logo Max Width (desktop)"
 msgstr ""
 
-#: inc/customizer.php:351
+#: inc/customizer/customizer.php:386
 msgid "Logo Max Width (mobile)"
 msgstr ""
 
-#: inc/customizer.php:359
+#: inc/customizer/customizer.php:394
 msgid "Colors"
 msgstr ""
 
-#: inc/customizer.php:381
+#: inc/customizer/customizer.php:416
 msgid "Header Background"
 msgstr ""
 
-#: inc/customizer.php:393
+#: inc/customizer/customizer.php:428
 msgid "Site Tagline"
 msgstr ""
 
-#: inc/customizer.php:400
+#: inc/customizer/customizer.php:435
 msgid "Search Icon"
 msgstr ""
 
-#: inc/customizer.php:407
+#: inc/customizer/customizer.php:442
 msgid "Footer"
 msgstr ""
 
-#: inc/customizer.php:418
+#: inc/customizer/customizer.php:453
 msgid "Footer Widget Area Background"
+msgstr ""
+
+#: inc/customizer/parts/miteri-additional-panel.php:8
+msgid "Additional Settings"
+msgstr ""
+
+#: inc/customizer/parts/miteri-additional-panel.php:21
+msgid "Social Icons"
+msgstr ""
+
+#: inc/customizer/parts/miteri-additional-panel.php:48
+msgid "Social Media Icons"
+msgstr ""
+
+#: inc/customizer/parts/miteri-additional-panel.php:52
+msgid "Social Media Icon"
+msgstr ""
+
+#: inc/customizer/parts/miteri-additional-panel.php:53
+msgid "Add Icon"
+msgstr ""
+
+#: inc/customizer/parts/miteri-additional-panel.php:58
+msgid "Social Media Logo"
+msgstr ""
+
+#: inc/customizer/parts/miteri-additional-panel.php:59
+msgid "Choose social media icon."
+msgstr ""
+
+#: inc/customizer/parts/miteri-additional-panel.php:63
+msgid "Social Icon Url"
+msgstr ""
+
+#: inc/customizer/parts/miteri-additional-panel.php:64
+msgid "Enter social media url."
+msgstr ""
+
+#: inc/customizer/parts/miteri-custom-classes.php:132
+msgid "Delete"
+msgstr ""
+
+#: inc/customizer/parts/miteri-custom-classes.php:134
+msgid "Close"
 msgstr ""
 
 #: inc/template-tags.php:57 inc/template-tags.php:63
@@ -668,55 +726,59 @@ msgstr ""
 msgid "CEO / Co-Founder"
 msgstr ""
 
-#: inc/widgets/class-author-widget.php:133
+#: inc/widgets/class-author-widget.php:139
 msgid "Title"
 msgstr ""
 
-#: inc/widgets/class-author-widget.php:142
+#: inc/widgets/class-author-widget.php:148
 msgid "Choose author/user"
 msgstr ""
 
-#: inc/widgets/class-author-widget.php:153
+#: inc/widgets/class-author-widget.php:159
 msgid "Enter author/user ID"
 msgstr ""
 
-#: inc/widgets/class-author-widget.php:163
+#: inc/widgets/class-author-widget.php:169
 msgid "Author designation"
 msgstr ""
 
-#: inc/widgets/class-author-widget.php:169
+#: inc/widgets/class-author-widget.php:175
 msgid "Display Options"
 msgstr ""
 
-#: inc/widgets/class-author-widget.php:176
+#: inc/widgets/class-author-widget.php:182
 msgid "Display author avatar"
 msgstr ""
 
-#: inc/widgets/class-author-widget.php:180
+#: inc/widgets/class-author-widget.php:186
 msgid "Avatar size:"
 msgstr ""
 
-#: inc/widgets/class-author-widget.php:194
+#: inc/widgets/class-author-widget.php:200
 msgid "Display author description"
 msgstr ""
 
-#: inc/widgets/class-author-widget.php:198
+#: inc/widgets/class-author-widget.php:204
 msgid "Limit description:"
 msgstr ""
 
-#: inc/widgets/class-author-widget.php:203
+#: inc/widgets/class-author-widget.php:209
 msgid "Specify number of characters to limit author description length"
 msgstr ""
 
-#: inc/widgets/class-author-widget.php:214
+#: inc/widgets/class-author-widget.php:220
 msgid "Display author \"all posts\" archive link"
 msgstr ""
 
-#: inc/widgets/class-author-widget.php:218
+#: inc/widgets/class-author-widget.php:227
+msgid "Show Social media"
+msgstr ""
+
+#: inc/widgets/class-author-widget.php:231
 msgid "Link text:"
 msgstr ""
 
-#: inc/widgets/class-author-widget.php:223
+#: inc/widgets/class-author-widget.php:236
 msgid "Specify text for \"all posts\" link if you want to show separate link"
 msgstr ""
 
@@ -780,7 +842,7 @@ msgid_plural "%1$s Replies to &ldquo;%2$s&rdquo;"
 msgstr[0] ""
 msgstr[1] ""
 
-#: functions.php:100
+#: functions.php:104
 #. translators: If there are characters in your language that are not supported
 #. by Nunito Sans, translate this to 'off'. Do not translate into your own
 #. language.
@@ -788,7 +850,7 @@ msgctxt "Open Sans: on or off"
 msgid "on"
 msgstr ""
 
-#: functions.php:105
+#: functions.php:109
 #. translators: If there are characters in your language that are not supported
 #. by Poppins, translate this to 'off'. Do not translate into your own
 #. language.
@@ -796,7 +858,7 @@ msgctxt "Poppins: on or off"
 msgid "on"
 msgstr ""
 
-#: functions.php:110
+#: functions.php:114
 #. translators: To add an additional character subset specific to your
 #. language, translate this to 'greek', 'cyrillic', 'devanagari' or
 #. 'vietnamese'. Do not translate into your own language.

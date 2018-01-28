@@ -1230,6 +1230,91 @@ body.mobile-sidebar-active:before {
   .header-layout-2 .site-branding p, .header-layout-2 .site-branding a {
     text-align: right; }
 
+.miteri-social-icons-wrapper {
+  text-align: center;
+  padding: 10px 5px; }
+  .miteri-social-icons-wrapper .social-link {
+    margin: 5px; }
+    .miteri-social-icons-wrapper .social-link .fa {
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+      text-align: center;
+      color: #FFF;
+      -webkit-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+      font-size: 1.4em;
+      color: #fff;
+      border-radius: 100%; }
+    .miteri-social-icons-wrapper .social-link .fa-adn {
+      background-color: #504e54; }
+    .miteri-social-icons-wrapper .social-link .fa-apple {
+      background-color: #aeb5c5; }
+    .miteri-social-icons-wrapper .social-link .fa-android {
+      background-color: #A5C63B; }
+    .miteri-social-icons-wrapper .social-link .fa-bitbucket, .miteri-social-icons-wrapper .social-link .fa-bitbucket-square {
+      background-color: #003366; }
+    .miteri-social-icons-wrapper .social-link .fa-bitcoin, .miteri-social-icons-wrapper .social-link .fa-btc {
+      background-color: #F7931A; }
+    .miteri-social-icons-wrapper .social-link .fa-css3 {
+      background-color: #1572B7; }
+    .miteri-social-icons-wrapper .social-link .fa-dribbble {
+      background-color: #F46899; }
+    .miteri-social-icons-wrapper .social-link .fa-dropbox {
+      background-color: #018BD3; }
+    .miteri-social-icons-wrapper .social-link .fa-facebook, .miteri-social-icons-wrapper .social-link .fa-facebook-square {
+      background-color: #3C599F; }
+    .miteri-social-icons-wrapper .social-link .fa-flickr {
+      background-color: #FF0084; }
+    .miteri-social-icons-wrapper .social-link .fa-foursquare {
+      background-color: #0086BE; }
+    .miteri-social-icons-wrapper .social-link .fa-github, .miteri-social-icons-wrapper .social-link .fa-github-alt, .miteri-social-icons-wrapper .social-link .fa-github-square {
+      background-color: #070709; }
+    .miteri-social-icons-wrapper .social-link .fa-google-plus, .miteri-social-icons-wrapper .social-link .fa-google-plus-square {
+      background-color: #CF3D2E; }
+    .miteri-social-icons-wrapper .social-link .fa-html5 {
+      background-color: #E54D26; }
+    .miteri-social-icons-wrapper .social-link .fa-instagram {
+      background-color: #A1755C; }
+    .miteri-social-icons-wrapper .social-link .fa-linkedin, .miteri-social-icons-wrapper .social-link .fa-linkedin-square {
+      background-color: #0085AE; }
+    .miteri-social-icons-wrapper .social-link .fa-linux {
+      background-color: #FBC002;
+      color: #333; }
+    .miteri-social-icons-wrapper .social-link .fa-maxcdn {
+      background-color: #F6AE1C; }
+    .miteri-social-icons-wrapper .social-link .fa-pagelines {
+      background-color: #241E20;
+      color: #3984EA; }
+    .miteri-social-icons-wrapper .social-link .fa-pinterest, .miteri-social-icons-wrapper .social-link .fa-pinterest-square {
+      background-color: #CC2127; }
+    .miteri-social-icons-wrapper .social-link .fa-renren {
+      background-color: #025DAC; }
+    .miteri-social-icons-wrapper .social-link .fa-skype {
+      background-color: #01AEF2; }
+    .miteri-social-icons-wrapper .social-link .fa-stack-exchange {
+      background-color: #245590; }
+    .miteri-social-icons-wrapper .social-link .fa-stack-overflow {
+      background-color: #FF7300; }
+    .miteri-social-icons-wrapper .social-link .fa-trello {
+      background-color: #265A7F; }
+    .miteri-social-icons-wrapper .social-link .fa-tumblr, .miteri-social-icons-wrapper .social-link .fa-tumblr-square {
+      background-color: #314E6C; }
+    .miteri-social-icons-wrapper .social-link .fa-twitter, .miteri-social-icons-wrapper .social-link .fa-twitter-square {
+      background-color: #32CCFE; }
+    .miteri-social-icons-wrapper .social-link .fa-vimeo-square {
+      background-color: #229ACC; }
+    .miteri-social-icons-wrapper .social-link .fa-vk {
+      background-color: #375474; }
+    .miteri-social-icons-wrapper .social-link .fa-weibo {
+      background-color: #D72B2B; }
+    .miteri-social-icons-wrapper .social-link .fa-windows {
+      background-color: #12B6F3; }
+    .miteri-social-icons-wrapper .social-link .fa-xing, .miteri-social-icons-wrapper .social-link .fa-xing-square {
+      background-color: #00555C; }
+    .miteri-social-icons-wrapper .social-link .fa-youtube, .miteri-social-icons-wrapper .social-link .fa-youtube-play, .miteri-social-icons-wrapper .social-link .fa-youtube-square {
+      background-color: #C52F30; }
+
 .hentry,
 .no-results {
   padding: 15px;
@@ -2205,6 +2290,14 @@ author Widgets
 
 .card .card-content {
   padding: 15px 30px; }
+
+.card-profile .miteri-social-icons-wrapper {
+  padding: 10px 0 0 0; }
+  .card-profile .miteri-social-icons-wrapper .social-link .fa {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 1.2em; }
 
 button,
 input[type="button"],

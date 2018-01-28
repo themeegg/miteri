@@ -21,7 +21,7 @@
 	&:hover {
 
 		color: $secondary_color;
-		a{
+		a {
 			color: $secondary_color;
 		}
 	}
@@ -104,7 +104,7 @@
 	/* Support for IE. */
 	font-feature-settings: 'liga';
 
- 	padding-right: 5px;
+	padding-right: 5px;
 	content: "\f073"
 }
 
@@ -272,56 +272,76 @@ author Widgets
 -------------------------------------------------------- */
 
 .miteri_author_details .widget_wrap {
-  padding: 0px;
-  border: none;
-  background-color: transparent;
+	padding: 0px;
+	border: none;
+	background-color: transparent;
 }
 
 .card {
-  position: relative;
-  width: 100%;
-  border-radius: 6px;
-  color: rgba(0, 0, 0, 0.87);
-  background: #fff;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
-  border: none;
-  overflow: visible;
+	position: relative;
+	width: 100%;
+	border-radius: 6px;
+	color: rgba(0, 0, 0, 0.87);
+	background: #fff;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+	border: none;
+	overflow: visible;
 }
 
 .card-profile {
-  text-align: center;
+	text-align: center;
 }
 
 .card-profile .card-avatar {
-  max-width: 130px;
-  max-height: 130px;
-  margin: 0 auto;
-  border-radius: 50%;
-  overflow: hidden;
-  box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+	max-width: 130px;
+	max-height: 130px;
+	margin: 0 auto;
+	border-radius: 50%;
+	overflow: hidden;
+	box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
 }
-.card-avatar img{margin: 0px; width: 100%;}
-.card-profile .card-avatar+.card-content {
-  margin-top: 15px;
+
+.card-avatar img {
+	margin: 0px;
+	width: 100%;
+}
+
+.card-profile .card-avatar + .card-content {
+	margin-top: 15px;
 }
 
 .card-profile .card .card-content {
-  padding: 15px 30px;
+	padding: 15px 30px;
 }
 
 .card-description {
-  color: #616161;
-  font-size: 14px;
+	color: #616161;
+	font-size: 14px;
 }
 
 .card-profile .card-title {
-  font-size: 1.3em;
-  line-height: 1.55em;
-  color: #3C4858;
-  text-decoration: none;
-  font-weight: 700;
+	font-size: 1.3em;
+	line-height: 1.55em;
+	color: #3C4858;
+	text-decoration: none;
+	font-weight: 700;
 }
 
 .card .card-content {
-  padding: 15px 30px;
+	padding: 15px 30px;
+}
+
+.card-profile {
+	.miteri-social-icons-wrapper {
+		padding: 0;
+		.social-link {
+			.fa {
+				width: 30px;
+				height: 30px;
+				line-height: 30px;
+				font-size: 1.2em;
+
+			}
+		}
+	}
 }

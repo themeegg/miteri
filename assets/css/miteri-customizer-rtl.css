@@ -1,0 +1,188 @@
+.miteri-clearfix:after, .miteri-clearfix:before {
+	content: "";
+	display: table
+}
+
+.miteri-clearfix:after {
+	clear: both
+}
+
+.miteri-repeater-field-control {
+	background: #fff;
+	margin-bottom: 12px;
+	display: block
+}
+
+.miteri-repeater-footer {
+	margin-top: 15px;
+	text-align: left
+}
+
+.miteri-repeater-field-control:first-child .miteri-repeater-footer {
+	display: none
+}
+
+.miteri-repeater-field-title {
+	padding: 13px 15px;
+	line-height: 1;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	margin: 0;
+	font-size: 1em;
+	border: 1px solid #e5e5e5;
+	cursor: move;
+	position: relative;
+	border-bottom: 0
+}
+
+.miteri-repeater-field-title:after {
+	content: "\f142";
+	font: 400 20px/1 dashicons;
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding: 1px 0 1px 2px;
+	margin-top: 10px;
+	margin-left: 10px;
+	border-radius: 50%;
+	cursor: pointer
+}
+
+.miteri-repeater-field-control.expanded .miteri-repeater-field-title:after {
+	content: "\f140"
+}
+
+.miteri-repeater-fields {
+	padding: 0 10px 10px;
+	border-top: none;
+	line-height: 16px;
+	border: 1px solid #e5e5e5;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+	display: none
+}
+
+.miteri-repeater-fields .customize-control-title {
+	margin-top: 10px
+}
+
+.miteri-repeater-field-control.expanded .miteri-repeater-fields {
+	display: block
+}
+
+.miteri-reapeater-add-control-field {
+	float: left
+}
+
+.miteri-reapeater-add-add-control-field:before {
+	content: "\f132";
+	display: inline-block;
+	position: relative;
+	right: -2px;
+	top: -1px;
+	font: 400 18px/1 dashicons;
+	vertical-align: middle
+}
+
+.miteri-repeater-type-icon {
+	overflow: hidden
+}
+
+.miteri-repeater-selected-icon {
+	background: #f6f6f6;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	border: 1px solid #eee;
+	position: relative;
+	margin-left: 45px;
+	cursor: pointer;
+	font-size: 28px
+}
+
+.miteri-repeater-selected-icon span {
+	position: absolute;
+	background: #f6f6f6;
+	left: -45px;
+	top: -1px;
+	height: 45px;
+	width: 45px;
+	border: 1px solid #eee;
+	font-size: 20px
+}
+
+.miteri-repeater-icon-list {
+	height: 215px;
+	overflow-y: scroll;
+	font-size: 18px;
+	border: 1px solid #eee;
+	border-left: 0;
+	border-top: 0;
+	padding-bottom: 4%;
+	display: none;
+	cursor: pointer;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box
+}
+
+.miteri-repeater-icon-list li {
+	float: right;
+	margin: 4% 3% 0;
+	height: 40px;
+	width: 16%;
+	text-align: center;
+	line-height: 40px;
+	border: 1px solid #eee
+}
+
+.miteri-repeater-icon-list li:hover {
+	background: #333;
+	border: 1px solid #333;
+	color: #fff
+}
+
+.miteri-repeater-icon-list li.icon-active {
+	background: #294a70;
+	border: 1px solid #294a70;
+	color: #fff
+}
+
+#customize-controls .control-section-upsell .accordion-section-title:focus, #customize-controls .control-section-upsell .accordion-section-title:hover {
+	background-color: #fff
+}
+
+.control-section-upsell .accordion-section-title .button {
+	margin-top: -4px;
+	font-weight: 700;
+	margin-right: 8px;
+	border-color: #294a70;
+	background-color: #294a70;
+	color: #fff
+}
+
+.control-section-upsell .accordion-section-title .button:hover {
+	background-color: #006d80
+}
+
+.miteri-imp-link {
+	font-weight: 500;
+	background: #294a70;
+	padding: 10px 10px;
+	color: #fff !important;
+	text-align: center;
+	display: block;
+	margin-top: 5px;
+	line-height: 1.5;
+	box-shadow: none;
+	font-style: normal;
+	text-decoration: none
+}
+
+.miteri-imp-link:focus {
+	box-shadow: none !important
+}
+
+.miteri-imp-link:hover {
+	background: #294a70
+}

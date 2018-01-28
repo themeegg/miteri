@@ -52,6 +52,7 @@ if ( ! class_exists( 'Miteri_Author_Details' ) ) {
 			$display_avatar    = isset( $instance['display_avatar'] ) ? absint( $instance['display_avatar'] ) : 0;
 			$display_desc      = isset( $instance['display_desc'] ) ? absint( $instance['display_desc'] ) : 0;
 			$display_all_posts = isset( $instance['display_all_posts'] ) ? absint( $instance['display_all_posts'] ) : 0;
+			$show_social_media = isset( $instance['show_social_media'] ) ? absint( $instance['show_social_media'] ) : 0;
 			$link_text         = isset( $instance['link_text'] ) ? strip_tags( $instance['link_text'] ) : '';
 			$avatar_size       = ! empty( $instance['avatar_size'] ) ? absint( $instance['avatar_size'] ) : 120;
 			$limit_chars       = isset( $instance['limit_chars'] ) ? absint( $instance['limit_chars'] ) : 0;
@@ -79,6 +80,9 @@ if ( ! class_exists( 'Miteri_Author_Details' ) ) {
 					</div>
 				<?php } ?>
 				<div class="card-content">
+					<?php if ( $show_social_media ) { ?>
+						<?php miteri_social_media(); ?>
+					<?php } ?>
 					<?php if ( ! empty( $designation ) ): ?>
 						<h5 class="category text-gray"><?php echo $designation ?></h5>
 					<?php endif; ?>
@@ -111,6 +115,7 @@ if ( ! class_exists( 'Miteri_Author_Details' ) ) {
 			$instance['avatar_size']       = ! empty( $new_instance['avatar_size'] ) ? absint( $new_instance['avatar_size'] ) : 120;
 			$instance['limit_chars']       = isset( $new_instance['limit_chars'] ) ? absint( $new_instance['limit_chars'] ) : '';
 			$instance['designation']       = isset( $new_instance['designation'] ) ? sanitize_text_field( $new_instance['designation'] ) : '';
+			$instance['show_social_media'] = isset( $new_instance['show_social_media'] ) ? absint( $new_instance['show_social_media'] ) : 0;
 
 			return $instance;
 		}
@@ -122,6 +127,7 @@ if ( ! class_exists( 'Miteri_Author_Details' ) ) {
 			$display_avatar    = isset( $instance['display_avatar'] ) ? absint( $instance['display_avatar'] ) : 0;
 			$display_desc      = isset( $instance['display_desc'] ) ? absint( $instance['display_desc'] ) : 0;
 			$display_all_posts = isset( $instance['display_all_posts'] ) ? absint( $instance['display_all_posts'] ) : 0;
+			$show_social_media = isset( $instance['show_social_media'] ) ? absint( $instance['show_social_media'] ) : 0;
 			$link_text         = isset( $instance['link_text'] ) ? strip_tags( $instance['link_text'] ) : '';
 			$avatar_size       = ! empty( $instance['avatar_size'] ) ? absint( $instance['avatar_size'] ) : 120;
 			$limit_chars       = isset( $instance['limit_chars'] ) ? absint( $instance['limit_chars'] ) : 0;
@@ -212,6 +218,13 @@ if ( ! class_exists( 'Miteri_Author_Details' ) ) {
 					       value="1" <?php checked( 1, $display_all_posts ); ?>/>
 					<label
 						for="<?php echo $this->get_field_id( 'display_all_posts' ); ?>"><?php esc_html_e( 'Display author "all posts" archive link', 'miteri' ); ?></label>
+				</li>
+				<li>
+					<input id="<?php echo $this->get_field_id( 'show_social_media' ); ?>" type="checkbox"
+					       name="<?php echo $this->get_field_name( 'show_social_media' ); ?>"
+					       value="1" <?php checked( 1, $show_social_media ); ?>/>
+					<label
+						for="<?php echo $this->get_field_id( 'show_social_media' ); ?>"><?php esc_html_e( 'Show Social media', 'miteri' ); ?></label>
 				</li>
 				<li>
 					<label

@@ -19,7 +19,13 @@
 					?>
 					<p class="site-description"><?php echo esc_html( $description ); ?></p>
 				<?php endif;
+
+				$miteri_social_media_header = get_theme_mod( 'miteri_social_media_header', 'enable' );
+				if ( $miteri_social_media_header === 'enable' ) {
+					miteri_social_media();
+				}
 				?>
+				
 			</div><!-- .site-branding -->
 
 			<?php if ( get_header_image() ) { ?>
