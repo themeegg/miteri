@@ -138,6 +138,8 @@ fieldset {
   padding: 0.35em 0.75em 0.625em; }
 
 legend {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
   color: inherit;
   display: table;
@@ -401,7 +403,6 @@ a:focus {
 
 .site-title a {
   color: #222222;
-  -webkit-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s; }
 
 .entry-title a {
@@ -481,7 +482,6 @@ figure {
 .container {
   max-width: 1240px;
   margin: auto;
-  -webkit-transition: all 0.5s ease-in-out 0s;
   transition: all 0.5s ease-in-out 0s;
   padding-left: 15px;
   padding-right: 15px; }
@@ -490,6 +490,7 @@ figure {
 .row {
   margin-left: -10px;
   margin-right: -10px;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
 .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12,
@@ -500,6 +501,7 @@ figure {
   min-height: 1px;
   padding-left: 10px;
   padding-right: 10px;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
 .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
@@ -667,24 +669,21 @@ figure {
   padding: 0;
   margin: 5px 0 0;
   opacity: 1;
-  -webkit-transition: opacity 0.3s ease-in-out 0s;
   transition: opacity 0.3s ease-in-out 0s; }
   .top-search .search-form {
     position: absolute;
     top: 35px;
     right: 0;
-    width: 160px;
+    width: 200px;
     height: 40px;
     opacity: 0;
     visibility: hidden;
     background-color: #fff;
     box-shadow: 0 2px 4px -2px rgba(0, 0, 0, 0.1);
-    -webkit-transition: width 0.5s ease 0s, opacity 0.5s ease 0s;
     transition: width 0.5s ease 0s, opacity 0.5s ease 0s;
     z-index: 20; }
     .top-search .search-form .search-field {
       height: 26px;
-      width: 160px;
       line-height: 26px;
       font-size: 13px;
       padding: 5px 35px 5px 10px;
@@ -740,8 +739,7 @@ figure {
     /* Support for Firefox. */
     -moz-osx-font-smoothing: grayscale;
     /* Support for IE. */
-    -webkit-font-feature-settings: 'liga';
-            font-feature-settings: 'liga';
+    font-feature-settings: 'liga';
     content: "\f002"; }
 
 .top-search.active .search-form {
@@ -773,7 +771,6 @@ figure {
     color: #222;
     text-align: center;
     opacity: 1;
-    -webkit-transition: opacity 0.3s ease-in-out 0s;
     transition: opacity 0.3s ease-in-out 0s; }
     .social-menu a:hover {
       text-decoration: none;
@@ -888,6 +885,7 @@ figure {
   height: 30px;
   line-height: 30px;
   background-color: rgba(0, 0, 0, 0.3);
+  -webkit-border-radius: 64px;
   border-radius: 64px;
   color: #fff; }
   .has-header-image .header-image .social-menu a:hover {
@@ -1051,7 +1049,6 @@ figure {
   background: #fff;
   left: -300px;
   -webkit-transition: all 0.5s ease 0s;
-  -webkit-transition: all 0.5s;
   transition: all 0.5s;
   box-sizing: border-box; }
 
@@ -1083,7 +1080,6 @@ body.admin-bar .mobile-sidebar {
   height: 2px;
   opacity: 1;
   position: absolute;
-  -webkit-transition: opacity 0.3s ease 0s, background 0.3s ease 0s;
   transition: opacity 0.3s ease 0s, background 0.3s ease 0s;
   width: 20px;
   z-index: 20;
@@ -1097,13 +1093,8 @@ body.admin-bar .mobile-sidebar {
   left: 0;
   position: absolute;
   top: -6px;
-  -webkit-transform-origin: center center 0;
-      -ms-transform-origin: center center 0;
-          transform-origin: center center 0;
-  -webkit-transition: background 0.3s ease 0s, -webkit-transform 0.3s ease 0s;
-  transition: background 0.3s ease 0s, -webkit-transform 0.3s ease 0s;
+  transform-origin: center center 0;
   transition: transform 0.3s ease 0s, background 0.3s ease 0s;
-  transition: transform 0.3s ease 0s, background 0.3s ease 0s, -webkit-transform 0.3s ease 0s;
   width: 20px; }
 
 .button-toggle:after {
@@ -1113,13 +1104,8 @@ body.admin-bar .mobile-sidebar {
   height: 2px;
   left: 0;
   position: absolute;
-  -webkit-transform-origin: center center 0;
-      -ms-transform-origin: center center 0;
-          transform-origin: center center 0;
-  -webkit-transition: background 0.3s ease 0s, -webkit-transform 0.3s ease 0s;
-  transition: background 0.3s ease 0s, -webkit-transform 0.3s ease 0s;
+  transform-origin: center center 0;
   transition: transform 0.3s ease 0s, background 0.3s ease 0s;
-  transition: transform 0.3s ease 0s, background 0.3s ease 0s, -webkit-transform 0.3s ease 0s;
   width: 20px; }
 
 /* Drop down Button */
@@ -1136,6 +1122,7 @@ body.admin-bar .mobile-sidebar {
   color: #222;
   border: 0;
   content: "";
+  -webkit-border-radius: 0;
   border-radius: 0; }
 
 .dropdown-toggle:after {
@@ -1158,8 +1145,7 @@ body.admin-bar .mobile-sidebar {
   /* Support for Firefox. */
   -moz-osx-font-smoothing: grayscale;
   /* Support for IE. */
-  -webkit-font-feature-settings: 'liga';
-          font-feature-settings: 'liga';
+  font-feature-settings: 'liga';
   content: "\f107";
   vertical-align: middle;
   padding: 4px 8px;
@@ -1215,15 +1201,11 @@ body.mobile-sidebar-active:before {
 
 .toggled-on .button-toggle:before {
   opacity: 1;
-  -webkit-transform: translate(0px, 6px) rotate(-45deg);
-      -ms-transform: translate(0px, 6px) rotate(-45deg);
-          transform: translate(0px, 6px) rotate(-45deg); }
+  transform: translate(0px, 6px) rotate(-45deg); }
 
 .toggled-on .button-toggle:after {
   opacity: 1;
-  -webkit-transform: translate(0px, -6px) rotate(45deg);
-      -ms-transform: translate(0px, -6px) rotate(45deg);
-          transform: translate(0px, -6px) rotate(45deg); }
+  transform: translate(0px, -6px) rotate(45deg); }
 
 .header-layout-2 .site-branding {
   float: left; }
@@ -1242,9 +1224,11 @@ body.mobile-sidebar-active:before {
       text-align: center;
       color: #FFF;
       -webkit-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      -ms-transition: all 0.3s ease-in-out;
+      -o-transition: all 0.3s ease-in-out;
       transition: all 0.3s ease-in-out;
       font-size: 1.4em;
-      color: #fff;
       border-radius: 100%; }
     .miteri-social-icons-wrapper .social-link .fa-adn {
       background-color: #504e54; }
@@ -1474,6 +1458,7 @@ body.mobile-sidebar-active:before {
   font-size: 14px;
   font-family: 'FontAwesome';
   -webkit-transition: margin-left .2s;
+  -moz-transition: margin-left .2s;
   transition: margin-left .2s; }
 
 .posts-loop .read-more:hover:after {
@@ -1585,8 +1570,7 @@ body.mobile-sidebar-active:before {
   /* Support for Firefox. */
   -moz-osx-font-smoothing: grayscale;
   /* Support for IE. */
-  -webkit-font-feature-settings: 'liga';
-          font-feature-settings: 'liga';
+  font-feature-settings: 'liga';
   content: "\E867";
   vertical-align: -20%;
   padding-right: 2px; }
@@ -1617,8 +1601,7 @@ body.mobile-sidebar-active:before {
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
     -moz-osx-font-smoothing: grayscale;
-    -webkit-font-feature-settings: 'liga';
-            font-feature-settings: 'liga';
+    font-feature-settings: 'liga';
     /* vertical-align: -20%; */
     padding-right: 5px; }
 
@@ -1672,7 +1655,6 @@ body.mobile-sidebar-active:before {
   margin-bottom: 20px;
   box-sizing: border-box;
   opacity: 1;
-  -webkit-transition: all 0.2s ease-in-out 0s;
   transition: all 0.2s ease-in-out 0s; }
   .featured-item:hover {
     opacity: .9; }
@@ -1693,6 +1675,7 @@ body.mobile-sidebar-active:before {
   width: 100%;
   padding: 80px 30px 30px;
   text-align: center;
+  background: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0.4) 0, transparent 100%);
   background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.4) 0, transparent 100%);
   background: linear-gradient(to top, rgba(0, 0, 0, 0.4) 0, transparent 100%); }
   .featured-overlay h4 {
@@ -1777,8 +1760,7 @@ body.single .attachment img, body.page .attachment img {
     /* Support for Firefox. */
     -moz-osx-font-smoothing: grayscale;
     /* Support for IE. */
-    -webkit-font-feature-settings: 'liga';
-            font-feature-settings: 'liga';
+    font-feature-settings: 'liga';
     vertical-align: -20%;
     padding-right: 6px;
     content: "\f073"; }
@@ -1836,7 +1818,6 @@ body.single .attachment img, body.page .attachment img {
   padding: 5px 0;
   color: #888;
   line-height: 1.3;
-  -webkit-transition: all 0.2s ease-in-out 0s;
   transition: all 0.2s ease-in-out 0s; }
 
 .posts-navigation:hover {
@@ -1912,8 +1893,7 @@ body.single .attachment img, body.page .attachment img {
     /* Support for Firefox. */
     -moz-osx-font-smoothing: grayscale;
     /* Support for IE. */
-    -webkit-font-feature-settings: 'liga';
-            font-feature-settings: 'liga';
+    font-feature-settings: 'liga';
     vertical-align: -20%; }
 
 .nav-previous a:before {
@@ -1956,6 +1936,7 @@ body.single .attachment img, body.page .attachment img {
 .author-avatar img {
   display: block;
   margin: auto;
+  -webkit-border-radius: 50%;
   border-radius: 50%; }
 
 .author-title {
@@ -1995,6 +1976,8 @@ body.single .attachment img, body.page .attachment img {
 
 .post-wrapper article {
   background: #fff;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
   margin-bottom: 30px; }
   .post-wrapper article:hover {
@@ -2017,11 +2000,15 @@ aside.sidebar .widget {
 
 .content-area {
   background: #fff;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
   padding: 10px; }
 
 body.home .content-area, body.archive .content-area, body.search .content-area {
   background: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
   box-shadow: none; }
 
 .site-footer {
@@ -2130,13 +2117,11 @@ body.home .content-area, body.archive .content-area, body.search .content-area {
   /* Support for Firefox. */
   -moz-osx-font-smoothing: grayscale;
   /* Support for IE. */
-  -webkit-font-feature-settings: 'liga';
-          font-feature-settings: 'liga';
+  font-feature-settings: 'liga';
   padding-right: 5px;
   content: "\f073"; }
 
 .sidebar .widget_tag_cloud a {
-  -webkit-transition: background 0.3s ease 0s;
   transition: background 0.3s ease 0s; }
 
 .sidebar .widget_tag_cloud a:hover {
@@ -2194,7 +2179,6 @@ body.home .content-area, body.archive .content-area, body.search .content-area {
 .site-footer .widget-area .widget_tag_cloud a {
   background-color: rgba(255, 255, 255, 0.05);
   border-color: rgba(255, 255, 255, 0.05);
-  -webkit-transition: opacity 0.3s ease 0s;
   transition: opacity 0.3s ease 0s; }
   .site-footer .widget-area .widget_tag_cloud a:hover {
     color: #fff;
@@ -2292,7 +2276,7 @@ author Widgets
   padding: 15px 30px; }
 
 .card-profile .miteri-social-icons-wrapper {
-  padding: 10px 0 0 0; }
+  padding: 0; }
   .card-profile .miteri-social-icons-wrapper .social-link .fa {
     width: 30px;
     height: 30px;
@@ -2314,7 +2298,6 @@ input[type="submit"] {
   opacity: 1;
   font-weight: 700;
   box-sizing: border-box;
-  -webkit-transition: opacity 0.3s ease 0s;
   transition: opacity 0.3s ease 0s; }
 
 button:hover,
@@ -2352,6 +2335,7 @@ input[type="color"],
 textarea {
   color: #666;
   border: 1px solid #eee;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
 select {
@@ -2401,7 +2385,6 @@ textarea {
 .comment-form input[type="url"],
 .comment-form input[type="email"] {
   width: 100%;
-  -webkit-transition: all .2s ease 0s;
   transition: all .2s ease 0s;
   box-shadow: none; }
 
@@ -2528,7 +2511,6 @@ input, textarea {
   background-color: #fff;
   border: 1px solid #214d74;
   border-radius: 128px;
-  -webkit-transition: background 0.2s ease 0s;
   transition: background 0.2s ease 0s; }
 
 .reply a:hover {
@@ -2577,6 +2559,7 @@ object {
   padding: 0 10px;
   text-align: center;
   vertical-align: top;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
 .gallery-icon img {
@@ -2691,23 +2674,14 @@ object {
     opacity: .9; }
   /* Grid Posts */
   .grid-post {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column; }
+    flex-direction: column; }
   .grid-post .entry-thumbnail,
   .grid-post .entry-header,
   .grid-post .entry-footer {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 1 auto;
-            flex: 0 1 auto; }
+    flex: 0 1 auto; }
   .grid-post .entry-summary {
-    -webkit-box-flex: 1;
-        -ms-flex: 1 1 auto;
-            flex: 1 1 auto; }
+    flex: 1 1 auto; }
   /* List Posts */
   .list-post .entry-thumbnail {
     float: left;
@@ -2914,7 +2888,6 @@ object {
     text-transform: uppercase;
     border: 0;
     opacity: 1;
-    -webkit-transition: color 0.3s ease-in-out 0s;
     transition: color 0.3s ease-in-out 0s; }
     .main-navigation > ul > li > a:hover {
       background: #214d74;
@@ -2943,8 +2916,7 @@ object {
     /* Support for Firefox. */
     -moz-osx-font-smoothing: grayscale;
     /* Support for IE. */
-    -webkit-font-feature-settings: 'liga';
-            font-feature-settings: 'liga';
+    font-feature-settings: 'liga';
     content: "\f107"; }
   .main-navigation > ul > li:hover > ul,
   .main-navigation > ul > li.focus > ul {
@@ -2958,7 +2930,6 @@ object {
     visibility: hidden;
     opacity: 0;
     border: 1px solid #ededed;
-    -webkit-transition: top 0.4s ease 0s, opacity 0.4s ease 0s;
     transition: top 0.4s ease 0s, opacity 0.4s ease 0s;
     z-index: 99999;
     text-align: left;
@@ -3011,8 +2982,7 @@ object {
     /* Support for Firefox. */
     -moz-osx-font-smoothing: grayscale;
     /* Support for IE. */
-    -webkit-font-feature-settings: 'liga';
-            font-feature-settings: 'liga';
+    font-feature-settings: 'liga';
     position: absolute;
     right: 15px;
     top: 13px;
@@ -3024,13 +2994,12 @@ object {
     right: 100%;
     visibility: hidden;
     opacity: 0;
-    -webkit-transition: opacity 0.3s ease-in-out 0s;
     transition: opacity 0.3s ease-in-out 0s; }
   /* Header */
   .top-search {
     display: inline-block; }
   .top-search .search-form {
-    top: 40px; }
+    top: 43px; }
   .site-branding .social-links {
     display: block;
     margin: 10px auto 0; }
@@ -3168,3 +3137,5 @@ object {
   /* Footer */
   .site-footer {
     margin-top: 30px; } }
+
+/*# sourceMappingURL=miteri.css.map */

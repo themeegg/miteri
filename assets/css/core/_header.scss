@@ -64,7 +64,7 @@
 		position: absolute;
 		top: 35px;
 		right: 0;
-		width: 160px;
+		width: 200px;
 		height: 40px;
 		opacity: 0;
 		visibility: hidden;
@@ -74,7 +74,6 @@
 		z-index: 20;
 		.search-field {
 			height: 26px;
-			width: 160px;
 			line-height: 26px;
 			font-size: 13px;
 			padding: 5px 35px 5px 10px;
@@ -764,7 +763,6 @@ body.mobile-sidebar-active:before {
 			-o-transition: all 0.3s ease-in-out;
 			transition: all 0.3s ease-in-out;
 			font-size: 1.4em;
-			color: #fff;
 			border-radius: 100%;
 		}
 		.fa-adn {
