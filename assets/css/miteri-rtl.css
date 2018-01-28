@@ -673,7 +673,7 @@ figure {
     position: absolute;
     top: 35px;
     left: 0;
-    width: 160px;
+    width: 200px;
     height: 40px;
     opacity: 0;
     visibility: hidden;
@@ -684,7 +684,6 @@ figure {
     z-index: 20; }
     .top-search .search-form .search-field {
       height: 26px;
-      width: 160px;
       line-height: 26px;
       font-size: 13px;
       padding: 5px 10px 5px 35px;
@@ -1244,7 +1243,6 @@ body.mobile-sidebar-active:before {
       -webkit-transition: all 0.3s ease-in-out;
       transition: all 0.3s ease-in-out;
       font-size: 1.4em;
-      color: #fff;
       border-radius: 100%; }
     .miteri-social-icons-wrapper .social-link .fa-adn {
       background-color: #504e54; }
@@ -1262,7 +1260,7 @@ body.mobile-sidebar-active:before {
       background-color: #F46899; }
     .miteri-social-icons-wrapper .social-link .fa-dropbox {
       background-color: #018BD3; }
-    .miteri-social-icons-wrapper .social-link .fa-facebook, .miteri-social-icons-wrapper .social-link .fa-facebook-square {
+    .miteri-social-icons-wrapper .social-link .fa-facebook, .miteri-social-icons-wrapper .social-link .fa-facebook-square, .miteri-social-icons-wrapper .social-link .fa-facebook-f {
       background-color: #3C599F; }
     .miteri-social-icons-wrapper .social-link .fa-flickr {
       background-color: #FF0084; }
@@ -2292,7 +2290,7 @@ author Widgets
   padding: 15px 30px; }
 
 .card-profile .miteri-social-icons-wrapper {
-  padding: 10px 0 0 0; }
+  padding: 0; }
   .card-profile .miteri-social-icons-wrapper .social-link .fa {
     width: 30px;
     height: 30px;
@@ -3030,7 +3028,7 @@ object {
   .top-search {
     display: inline-block; }
   .top-search .search-form {
-    top: 40px; }
+    top: 43px; }
   .site-branding .social-links {
     display: block;
     margin: 10px auto 0; }
