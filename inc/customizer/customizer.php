@@ -189,6 +189,18 @@ function miteri_theme_customizer( $wp_customize ) {
 		'section' => 'blog_section',
 		'type'    => 'number',
 	) );
+        
+        // Show CTA Section
+	$wp_customize->add_setting( 'blog_show_cta', array(
+		'default'           => 1,
+		'sanitize_callback' => 'absint',
+	) );
+
+	$wp_customize->add_control( 'blog_show_cta', array(
+		'label'   => esc_html__( 'Show CTA?', 'miteri' ),
+		'section' => 'blog_section',
+		'type'    => 'checkbox',
+	) );
 
 	// Archives Section
 	$wp_customize->add_section( 'archive_section', array(

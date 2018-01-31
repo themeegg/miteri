@@ -12,8 +12,11 @@
  * @package Miteri
  * @since Miteri 1.0
  */
-get_header(); ?>
-<?php
+get_header();
+$show_cta = absint(get_theme_mod('blog_show_cta', 1));
+if (is_home() && $show_cta):
+    get_template_part('template-parts/page/blog', 'box');
+endif;
 /* Blog Options */
 $blog_layout = get_theme_mod('blog_layout', 'list');
 $blog_sidebar_position = get_theme_mod('blog_sidebar_position', 'content-sidebar');

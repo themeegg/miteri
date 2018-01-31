@@ -17,9 +17,14 @@ $archive_sidebar_position = get_theme_mod('archive_sidebar_position', 'content-s
 $post_template = miteri_archive_template();
 $post_column = miteri_archive_column();
 ?>
-
+<?php
+if (is_home()):
+    get_template_part('template-parts/page/blog', 'box');
+endif;
+?>
 <div id="primary" class="content-area">
     <main id="main" class="site-main" role="main">
+
         <?php if (have_posts()) : ?>
             <header class="page-header">
                 <div class="page-header-wrapper">
@@ -29,17 +34,19 @@ $post_column = miteri_archive_column();
                     ?>
                 </div>
             </header><!-- .page-header -->
-            <section class="row posts-loop wrapper-type-grid <?php if ('grid' == $archive_layout) {
-                    echo esc_attr('flex-row');
-                } ?>">
-                <?php
-                /* Start the Loop */
-                while (have_posts()) : the_post();
-                    ?>
+            <section class="row posts-loop wrapper-type-grid <?php
+            if ('grid' == $archive_layout) {
+                echo esc_attr('flex-row');
+            }
+            ?>">
+                         <?php
+                         /* Start the Loop */
+                         while (have_posts()) : the_post();
+                             ?>
                     <div class="post-wrapper <?php echo esc_attr($post_column); ?>">
-                    <?php get_template_part('template-parts/post/content', $post_template); ?>
+                        <?php get_template_part('template-parts/post/content', $post_template); ?>
                     </div>
-            <?php endwhile; ?>
+                <?php endwhile; ?>
             </section>
             <?php
             the_posts_navigation();
