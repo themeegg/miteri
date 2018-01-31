@@ -1,6 +1,6 @@
 <?php
 /*
- * Template Name: No Sidebar, Full Width, No Title
+ * Template Name: No Sidebar, Full Width
  *
  * @package Miteri
  * @since Miteri 1.0
@@ -11,11 +11,11 @@ get_header(); ?>
 <?php if ( have_posts() ) : ?>
 
 	<?php if ( get_theme_mod('page_style', 'fimg-classic') == 'fimg-fullwidth' ) : ?>
-		<?php /* ?>
+		
 		<div class="entry-header">
 			<?php the_title( '<h1 class="entry-title"><span>', '</span></h1>' ); ?>
 		</div>
-		<?php */ ?>	
+			
 		<?php if ( has_post_thumbnail() && get_theme_mod('page_has_featured_image', 1) ) : ?>
 			<figure class="entry-thumbnail">
 				<?php the_post_thumbnail('miteri-cp-1200x580'); ?>

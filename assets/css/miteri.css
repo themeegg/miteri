@@ -2336,7 +2336,7 @@ Blog Box
       height: 2px;
       margin: 0 auto;
       position: absolute;
-      background: #214d74;
+      background: #fff;
       -webkit-transition: width 0.6s ease-in-out;
       -moz-transition: width 0.6s ease-in-out;
       -ms-transition: width 0.6s ease-in-out;
@@ -2345,8 +2345,8 @@ Blog Box
     .blog-box ul li:before {
       width: 50%; }
     .blog-box ul li:after {
-      background: #fff;
-      width: 0%; }
+      width: 0%;
+      background: #ff8400; }
     .blog-box ul li:hover:after {
       width: 50%; }
 

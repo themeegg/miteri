@@ -398,7 +398,7 @@ Blog Box
                 height:2px;
                 margin:0 auto;
                 position:absolute;
-                background:$primary_color;
+                background:#fff;
                 -webkit-transition: width 0.6s ease-in-out;
                 -moz-transition: width 0.6s ease-in-out;
                 -ms-transition: width 0.6s ease-in-out;
@@ -409,8 +409,8 @@ Blog Box
                 width:50%;
             }
             &:after{
-                background:#fff;
                 width:0%;
+                background:$secondary_color;
             }
             &:hover{
                 &:after{
