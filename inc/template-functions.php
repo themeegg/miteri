@@ -70,5 +70,21 @@ if (!function_exists('miteri_social_media')):
         }
     }
 
+endif;
 
+
+if (!function_exists('miteri_debug')):
+
+    function miteri_debug($value, $dump = false) {
+        if (!$dump) {
+            echo "<pre>";
+            print_r($value);
+            echo "</pre>";
+        } else {
+            echo "<pre>";
+            var_dump($value);
+            echo "</pre>";
+        }
+    }
+    
 endif;

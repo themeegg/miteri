@@ -17,11 +17,6 @@ $archive_sidebar_position = get_theme_mod('archive_sidebar_position', 'content-s
 $post_template = miteri_archive_template();
 $post_column = miteri_archive_column();
 ?>
-<?php
-if (is_home()):
-    get_template_part('template-parts/page/blog', 'box');
-endif;
-?>
 <div id="primary" class="content-area">
     <main id="main" class="site-main" role="main">
 

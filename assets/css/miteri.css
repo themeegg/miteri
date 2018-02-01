@@ -2437,7 +2437,7 @@ input[type="datetime-local"],
 input[type="color"],
 textarea {
   color: #666;
-  border: 1px solid #eee;
+  border: 1px solid #ccc;
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
