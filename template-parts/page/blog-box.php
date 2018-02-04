@@ -15,15 +15,13 @@
            wp_reset_postdata();
             $args = array(
                 'post_type' => 'post',
-                'posts_per_page' => 2,
+                'posts_per_page' => 3,
                 'nopaging' => false,
                 'paged'=>1,
                 'posts_per_archive_page'=>3,
                 'posts_status' => 'publish',
             );
             $blog_result = new WP_Query($args);
-            echo $blog_result->post_count;
-            //miteri_debug($blog_result);
             echo '<div style="clear:both;"></div>';
             if ($blog_result->have_posts()):
                 while ($blog_result->have_posts()):

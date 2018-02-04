@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Additional features to allow styling of the templates
  *
@@ -86,5 +85,22 @@ if (!function_exists('miteri_debug')):
             echo "</pre>";
         }
     }
-    
+
 endif;
+
+
+if (!function_exists('miteri_lazyload_data')):
+
+    function miteri_lazyload_data() {
+
+        global $wp_query;
+        $data_lazyload = array(
+            'post_count' => $wp_query->post_count,
+            'where' => is_home() ? 'home' : 'category',
+        );
+        return $data_lazyload;
+    }
+
+endif;
+
+

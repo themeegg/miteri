@@ -2018,6 +2018,19 @@ body.home .content-area, body.archive .content-area, body.search .content-area {
   -moz-box-shadow: none;
   box-shadow: none; }
 
+.miteri-lazy-loading {
+  overflow: hidden; }
+  .miteri-lazy-loading:after {
+    content: "";
+    display: block;
+    clear: both; }
+
+.loading-image {
+  display: none;
+  text-align: center; }
+  .loading-image.active {
+    display: block; }
+
 .site-footer {
   margin: 20px auto 0;
   background-color: #131119;

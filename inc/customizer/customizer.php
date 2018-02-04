@@ -201,6 +201,18 @@ function miteri_theme_customizer( $wp_customize ) {
 		'section' => 'blog_section',
 		'type'    => 'checkbox',
 	) );
+        
+        // Lazy Loading
+        $wp_customize->add_setting( 'blog_lazy_loading', array(
+		'default'           => 0,
+		'sanitize_callback' => 'absint',
+	) );
+
+	$wp_customize->add_control( 'blog_lazy_loading', array(
+		'label'   => esc_html__( 'Lozy loading?', 'miteri' ),
+		'section' => 'blog_section',
+		'type'    => 'checkbox',
+	) );
 
 	// Archives Section
 	$wp_customize->add_section( 'archive_section', array(
