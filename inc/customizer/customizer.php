@@ -209,7 +209,7 @@ function miteri_theme_customizer( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( 'blog_lazy_loading', array(
-		'label'   => esc_html__( 'Lozy loading?', 'miteri' ),
+		'label'   => esc_html__( 'Infinite Scrolling?', 'miteri' ),
 		'section' => 'blog_section',
 		'type'    => 'checkbox',
 	) );
