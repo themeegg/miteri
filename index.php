@@ -46,7 +46,7 @@ if (have_posts()) :
                 <?php endwhile; ?>
             </section>
             <div class="loading-image">
-                <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/img/loading.gif'); ?>" title="<?php esc_html_e('Loading Image', 'miteri'); ?>" alt="<?php esc_html_e('Loading Image', 'miteri'); ?>" height="50" width="50" />
+                <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/img/ajax-loading.gif'); ?>" title="<?php esc_html_e('Loading Image', 'miteri'); ?>" alt="<?php esc_html_e('Loading Image', 'miteri'); ?>" height="50" width="50" />
             </div>
             <?php
             if (!$blog_lazy_loading):
