@@ -8,7 +8,7 @@ Tags: custom-colors, custom-header,  footer-widgets, full-width-template, one-co
 
 Requires at least: 4.3
 Tested up to: 4.9.2
-Stable tag: 1.0.7
+Stable tag: 1.0.8
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -67,7 +67,7 @@ Other Images:
 = 1.0.8 - 2018/02/05 =
 	* Added - POST CTA section added
 	* Added - Ajax Loading added
-        * Fix - RTL Issue fixing
+	* Fix - RTL Issue fixing
 = 1.0.7 - 2018/01/28 =
 	* Added - Social media icon added
 	* Fix - Search icon design issue fix
