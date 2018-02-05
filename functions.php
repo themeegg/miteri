@@ -148,7 +148,11 @@ function miteri_scripts() {
     // Add Material Icons
     wp_enqueue_style('font-awesome', get_template_directory_uri() . '/assets/lib/font-awesome/css/font-awesome.css', array(), '4.7');
 
-    wp_enqueue_style('miteri-default-style', get_template_directory_uri() . '/assets/css/miteri.css', array(), '1.0.0');
+    if (is_rtl()):
+        wp_enqueue_style('miteri-default-style-rtl', get_template_directory_uri() . '/assets/css/miteri-rtl.css', array(), '1.0.0');
+    else:
+        wp_enqueue_style('miteri-default-style', get_template_directory_uri() . '/assets/css/miteri.css', array(), '1.0.0');
+    endif;
 
     // Theme stylesheet
     wp_enqueue_style('miteri-style', get_stylesheet_uri(), array(), '1.0.0');
