@@ -64,6 +64,10 @@ Other Images:
 2. You wll find different options in customizer
 
 == Changelog ==
+= 1.0.8 - 2018/02/05 =
+	* Added - POST CTA section added
+	* Added - Ajax Loading added
+        * Fix - RTL Issue fixing
 = 1.0.7 - 2018/01/28 =
 	* Added - Social media icon added
 	* Fix - Search icon design issue fix
