@@ -2066,6 +2066,10 @@ body.home .content-area, body.archive .content-area, body.search .content-area {
 .widget {
   margin: 0 0 30px;
   word-wrap: break-word; }
+  .widget:after {
+    content: "";
+    display: block;
+    clear: both; }
 
 .widget-area {
   color: #666;

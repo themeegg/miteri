@@ -1,7 +1,14 @@
 .widget {
     margin: 0 0 30px;
     word-wrap: break-word;
+    &:after {
+        content: "";
+        display: block;
+        clear: both;
+    }
 }
+
+
 
 .widget-area {
     color: #666;
