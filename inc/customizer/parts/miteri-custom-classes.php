@@ -101,7 +101,11 @@ if (class_exists('WP_Customize_Control')) {
                                             case 'url':
                                                 echo '<input data-default="' . esc_attr($default) . '" data-name="' . esc_attr($key) . '" type="text" value="' . esc_url($new_value) . '"/>';
                                                 break;
-
+                                            
+                                            case 'color':
+                                                echo '<input class="miteri-color-picker" data-default="' . esc_attr($default) . '" data-name="' . esc_attr($key) . '" type="text" value="' . esc_url($new_value) . '"/>';
+                                                break;
+                                            
                                             case 'social_icon':
                                                 echo '<div class="miteri-repeater-selected-icon">';
                                                 echo '<i class="' . esc_attr($new_value) . '"></i>';

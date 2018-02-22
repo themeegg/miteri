@@ -11,11 +11,13 @@ class Miteri_Widgets {
 	function require_files() {
 
 		require get_template_directory() . '/inc/widgets/class-author-widget.php';
+		require get_template_directory() . '/inc/widgets/class-miteri-slider-widget.php';
 	}
 
 	function widgets_init() {
 
 		register_widget( 'Miteri_Author_Details' );
+		register_widget( 'Miteri_Slider' );
 
 	}
 

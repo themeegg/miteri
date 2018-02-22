@@ -60,10 +60,11 @@ if (!function_exists('miteri_social_media')):
         if (!empty($get_decode_social_media)) {
             echo '<div class="miteri-social-icons-wrapper">';
             foreach ($get_decode_social_media as $single_icon) {
-                $icon_class = $single_icon->social_icon_class;
-                $icon_url = $single_icon->social_icon_url;
+                $icon_class = isset($single_icon->social_icon_class) ? $single_icon->social_icon_class : '';
+                $icon_url = isset($single_icon->social_icon_url) ? $single_icon->social_icon_url : '';
+                $icon_bg = isset($single_icon->social_icon_bg) ? $single_icon->social_icon_bg : '';
                 if (!empty($icon_url)) {
-                    echo '<span class="social-link"><a href="' . esc_url($icon_url) . '" target="_blank"><i class="' . esc_attr($icon_class) . '"></i></a></span>';
+                    echo '<span class="social-link"><a href="' . esc_url($icon_url) . '" target="_blank"><i class="' . esc_attr($icon_class) . '" style="background-color:'.$icon_bg.'"></i></a></span>';
                 }
             }
             echo '</div><!-- .miteri-social-icons-wrapper -->';
@@ -106,3 +107,46 @@ if (!function_exists('miteri_lazyload_data')):
 endif;
 
 
+/**
+ * categories in dropdown
+ *
+ * @since 1.0.9
+ */
+if (!function_exists('miteri_category_dropdown')) :
+
+    function miteri_category_dropdown() {
+        $miteri_categories = get_categories(array('hide_empty' => 0));
+        $miteri_category_dropdown['0'] = esc_html__('Select Category', 'miteri-pro');
+        foreach ($miteri_categories as $miteri_category) {
+            $miteri_category_dropdown[$miteri_category->term_id] = $miteri_category->cat_name;
+        }
+        return $miteri_category_dropdown;
+    }
+
+endif;
+
+/**
+ * Custom function for wp_query args
+ * @since 1.0.9
+ */
+if (!function_exists('miteri_query_args')):
+
+    function miteri_query_args($cat_id, $post_count = null) {
+        if (!empty($cat_id)) {
+            $miteri_args = array(
+                'post_type' => 'post',
+                'cat' => $cat_id,
+                'posts_per_page' => $post_count
+            );
+        } else {
+            $miteri_args = array(
+                'post_type' => 'post',
+                'posts_per_page' => $post_count,
+                'ignore_sticky_posts' => 1
+            );
+        }
+
+        return $miteri_args;
+    }
+
+endif;
