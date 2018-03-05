@@ -141,6 +141,18 @@ function miteri_theme_customizer($wp_customize) {
         )
     ));
 
+    // Show Logo On Menu
+    $wp_customize->add_setting('show_searchform_onmenu', array(
+        'default' => 0,
+        'sanitize_callback' => 'absint',
+    ));
+
+    $wp_customize->add_control('show_searchform_onmenu', array(
+        'label' => esc_html__('Show Search form on menu', 'miteri'),
+        'section' => 'header_section',
+        'type' => 'checkbox',
+    ));
+
     // Blog Section
     $wp_customize->add_section('blog_section', array(
         'title' => esc_html__('Blog', 'miteri'),

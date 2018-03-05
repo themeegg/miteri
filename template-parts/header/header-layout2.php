@@ -32,11 +32,13 @@
 		</div>
 	</div><!-- .header-image-->
 <?php } ?>
-
 	<div class="main-navbar navbar-left">
 		<div class="container">
-			<?php get_template_part( 'template-parts/navigation/navigation', 'main' ); // Main Menu ?>
-			<?php if ( get_theme_mod( 'show_header_search' ) ) { ?>
+			<?php 
+			get_template_part( 'template-parts/navigation/navigation', 'main' ); // Main Menu 
+			$show_searchform_onmenu = get_theme_mod('show_searchform_onmenu', 0);
+			if( absint($show_searchform_onmenu) ) { 
+				?>
 				<div class="top-search">
 					<span id="top-search-button" class="top-search-button"><i class="search-icon"></i></span>
 					<?php get_search_form(); ?>
