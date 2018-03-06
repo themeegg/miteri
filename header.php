@@ -22,8 +22,8 @@
 	<?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
-
-<div id="page" class="site">
+ <?php $website_layout = miteri_website_layout(); ?>
+<div id="page" class="site <?php echo esc_attr($website_layout); ?>-layout">
 	<a class="skip-link screen-reader-text" href="#main"><?php esc_html_e( 'Skip to content', 'miteri' ); ?></a>
 	<header id="masthead" class="site-header <?php if ( get_header_image() ) { echo 'has-header-image'; } ?>" role="banner">
 		<?php

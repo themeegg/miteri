@@ -632,6 +632,13 @@ figure {
   background-color: #fff;
   text-align: center; }
 
+#page.box-layout {
+  max-width: 1240px;
+  margin: 0 auto; }
+
+#page.full-layout {
+  max-width: 100%; }
+
 .site-branding {
   padding: 30px 0; }
 
@@ -1798,20 +1805,43 @@ body.single .attachment img, body.page .attachment img {
     color: #ff8400; }
 
 /* Featured Image */
+.fimg-banner .entry-header,
 .fimg-fullwidth .entry-header {
   margin: 0 auto 20px; }
 
+.fimg-banner .entry-title,
 .fimg-fullwidth .entry-title {
   text-align: center; }
 
+.fimg-banner .entry-thumbnail,
 .fimg-fullwidth .entry-thumbnail {
   margin: 0 auto 20px; }
 
+.fimg-banner .entry-meta,
 .fimg-fullwidth .entry-meta {
   margin: 10px 0 0; }
 
+.fimg-banner .entry-category,
 .fimg-fullwidth .entry-category {
   margin: 0 0 10px; }
+
+/* Featured Image */
+.fimg-banner .parallax-window {
+  min-height: 400px;
+  background: transparent; }
+
+.fimg-banner .has_featured_image {
+  position: relative; }
+  .fimg-banner .has_featured_image img {
+    display: none; }
+  .fimg-banner .has_featured_image .entry-header {
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: -60px auto 0;
+    position: absolute; }
+  .fimg-banner .has_featured_image .entry-title {
+    color: #fff; }
 
 /* Posts Navigation */
 .posts-navigation,

@@ -13,18 +13,24 @@
  * @since Miteri 1.0
  */
 
-get_header(); ?>
-
-<?php if ( have_posts() ) : ?>
-
-	<?php if ( get_theme_mod('page_style', 'fimg-classic') == 'fimg-fullwidth' ) : ?>
-		<div class="featured-image">
+get_header();
+ if ( have_posts() ) :
+ 	$page_style = get_theme_mod('page_style', 'fimg-classic');
+        $page_banner_thumbnail = ($page_style=='fimg-banner') ? 'full' : 'miteri-cp-1200x580';
+        $show_page_thumbnail = has_post_thumbnail() && get_theme_mod('page_has_featured_image', 1);
+        if ( $page_style == 'fimg-fullwidth' || $page_style == 'fimg-banner' ):
+	  ?>
+		<div class="featured-image <?php echo ($show_page_thumbnail) ? ' has_featured_image' : ''; ?>">
 			<div class="entry-header">
 				<?php the_title( '<h1 class="entry-title"><span>', '</span></h1>' ); ?>
 			</div>
-			<?php if ( has_post_thumbnail() && get_theme_mod('page_has_featured_image', 1) ) : ?>
-				<figure class="entry-thumbnail">
-					<?php the_post_thumbnail('miteri-cp-1200x580'); ?>
+			<?php if ( $show_page_thumbnail ) : ?>
+				<figure class="entry-thumbnail <?php echo esc_attr($page_style == 'fimg-banner' ) ? 'parallax-window' : ''; ?>" <?php echo ($page_style=='fimg-banner') ? 'data-parallax="scroll" data-image-src="'.get_the_post_thumbnail_url(get_the_ID(), $page_banner_thumbnail).'"' : ''; ?>>
+					<?php 
+					if($page_style=='fimg-fullwidth'):
+						the_post_thumbnail($page_banner_thumbnail); 
+					endif;
+					?>
 				</figure>
 			<?php endif; // Featured Image ?>
 		</div>

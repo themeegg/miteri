@@ -317,6 +317,7 @@ function miteri_theme_customizer($wp_customize) {
         'choices' => array(
             'fimg-classic' => esc_html__('Large Featured Image', 'miteri'),
             'fimg-fullwidth' => esc_html__('Full width Featured Image', 'miteri'),
+            'fimg-banner' => esc_html__('Full width with parallax Image', 'miteri'),
         ),
         'active_callback' => 'miteri_post_has_featured_image',
     ));
@@ -383,6 +384,7 @@ function miteri_theme_customizer($wp_customize) {
         'choices' => array(
             'fimg-classic' => esc_html__('Large Featured Image', 'miteri'),
             'fimg-fullwidth' => esc_html__('Full width Featured Image', 'miteri'),
+            'fimg-banner' => esc_html__('Full width with parallax Image', 'miteri'),
         ),
         'active_callback' => 'miteri_page_has_featured_image',
     ));
@@ -494,6 +496,31 @@ function miteri_theme_customizer($wp_customize) {
         'label' => esc_html__('Footer Widget Area Background', 'miteri'),
         'section' => 'colors_footer',
     )));
+
+    
+    // Archives Section
+    $wp_customize->add_section('layout_section', array(
+        'title' => esc_html__('Layout', 'miteri-pro'),
+        'priority' => 25,
+        'panel' => 'miteri_panel',
+        'description' => esc_html__('Settings for website layout.', 'miteri-pro'),
+    ));
+
+    // Archives Post Layout
+    $wp_customize->add_setting('website_layout', array(
+        'default' => 'box',
+    ));
+
+    $wp_customize->add_control('website_layout', array(
+        'label' => esc_html__('Website Layout', 'miteri-pro'),
+        'section' => 'layout_section',
+        'type' => 'radio',
+        'choices' => array(
+            'box' => esc_html__('Box Width', 'miteri-pro'),
+            'full' => esc_html__('Full Width', 'miteri-pro'),
+        )
+    ));
+
 
     require get_template_directory() . '/inc/customizer/parts/miteri-additional-panel.php';         // Additional Panel
 

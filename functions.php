@@ -163,6 +163,8 @@ function miteri_scripts() {
 
     wp_enqueue_script('miteri-skip-link-focus-fix', get_template_directory_uri() . '/assets/js/skip-link-focus-fix.js', array(), '20151215', true);
     
+    wp_enqueue_script('parallax', get_template_directory_uri() . '/assets/lib/parallax/parallax.min.js', array(), '1.5.0', true);
+
     wp_enqueue_script('owl-carousel', get_template_directory_uri() . '/assets/js/owl.carousel.min.js', array(), '2.2.1', true);
 
     if (is_singular() && comments_open() && get_option('thread_comments')) {

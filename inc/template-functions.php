@@ -46,6 +46,19 @@ if (!function_exists('miteri_font_awesome_social_icon_array')) :
     }
 
 endif;
+
+/*
+ * website layout
+ */
+if (!function_exists('miteri_website_layout')) :
+
+    function miteri_website_layout() {
+        $website_layout = get_theme_mod('website_layout', 'box');
+        return $website_layout;
+    }
+
+endif;
+
 /* --------------------------------------------------------------------------------------------------------------- */
 /**
  * Social media function

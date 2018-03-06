@@ -621,6 +621,7 @@ body {
 }
 
 /* Featured Image */
+.fimg-banner,
 .fimg-fullwidth {
     .entry-header {
         margin: 0 auto 20px;
@@ -636,6 +637,30 @@ body {
     }
     .entry-category {
         margin: 0 0 10px;
+    }
+}
+
+/* Featured Image */
+.fimg-banner{
+    .parallax-window {
+        min-height: 400px;
+        background: transparent;
+    }
+    .has_featured_image{
+        position:relative;
+        img{
+        display:none;
+        }
+        .entry-header {
+            top:50%;
+            left:0;
+            right:0;
+            margin: -60px auto 0;
+            position:absolute;
+        }
+        .entry-title {
+            color:#fff;
+        }
     }
 }
 
