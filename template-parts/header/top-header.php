@@ -23,7 +23,7 @@ if ($cat_id) {
                     if ($query->have_posts()):
                         ?>
                         <div class="breaking-wrap">
-                            <?php $breaking_news_label = get_theme_mod('breaking_news_label', esc_html__('Breaking News', 'miteri-pro')); ?>
+                            <?php $breaking_news_label = get_theme_mod('breaking_news_label', esc_html__('Breaking News', 'miteri')); ?>
                             <span class="breaking-news-title"><?php echo $breaking_news_label; ?></span>
                             <ul class="breaking-news owl-carousel">
                                 <?php while ($query->have_posts()): $query->the_post(); ?>

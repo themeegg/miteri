@@ -77,7 +77,7 @@ if (!function_exists('miteri_social_media')):
                 $icon_url = isset($single_icon->social_icon_url) ? $single_icon->social_icon_url : '';
                 $icon_bg = isset($single_icon->social_icon_bg) ? $single_icon->social_icon_bg : '';
                 if (!empty($icon_url)) {
-                    echo '<span class="social-link"><a href="' . esc_url($icon_url) . '" target="_blank"><i class="' . esc_attr($icon_class) . '" style="background-color:'.$icon_bg.'"></i></a></span>';
+                    echo '<span class="social-link"><a href="' . esc_url($icon_url) . '" target="_blank"><i class="' . esc_attr($icon_class) . '" style="background-color:'.sanitize_hex_color($icon_bg).'"></i></a></span>';
                 }
             }
             echo '</div><!-- .miteri-social-icons-wrapper -->';
@@ -129,7 +129,7 @@ if (!function_exists('miteri_category_dropdown')) :
 
     function miteri_category_dropdown() {
         $miteri_categories = get_categories(array('hide_empty' => 0));
-        $miteri_category_dropdown['0'] = esc_html__('Select Category', 'miteri-pro');
+        $miteri_category_dropdown['0'] = esc_html__('Select Category', 'miteri');
         foreach ($miteri_categories as $miteri_category) {
             $miteri_category_dropdown[$miteri_category->term_id] = $miteri_category->cat_name;
         }
@@ -172,7 +172,7 @@ function miteri_get_categories() {
     $args = array('fields' => 'ids');
     $categories = get_categories();
     $categories_list = array(
-        '' => esc_html__('Select Category', 'miteri-pro')
+        '' => esc_html__('Select Category', 'miteri')
     );
     foreach ($categories as $category) {
         $categories_list['' . $category->term_id . ''] = $category->name;

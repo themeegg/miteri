@@ -17,9 +17,9 @@ if (!class_exists('Miteri_Slider')) {
         public function __construct() {
             $widget_ops = array(
                 'classname' => 'miteri_banner',
-                'description' => esc_html__('Display block posts in grid layout.', 'miteri-pro')
+                'description' => esc_html__('Display block posts in grid layout.', 'miteri')
             );
-            parent::__construct('miteri_banner', esc_html__('Post Slider', 'miteri-pro'), $widget_ops);
+            parent::__construct('miteri_banner', esc_html__('Post Slider', 'miteri'), $widget_ops);
         }
 
         /**
@@ -35,42 +35,42 @@ if (!class_exists('Miteri_Slider')) {
             $fields = array(
                 'title' => array(
                     'miteri_widgets_name' => 'title',
-                    'miteri_widgets_title' => esc_html__('Title', 'miteri-pro'),
+                    'miteri_widgets_title' => esc_html__('Title', 'miteri'),
                     'miteri_widgets_field_type' => 'text'
                 ),
                 'miteri_slider_category' => array(
                     'miteri_widgets_name' => 'miteri_slider_category',
-                    'miteri_widgets_title' => esc_html__('Category for slider', 'miteri-pro'),
+                    'miteri_widgets_title' => esc_html__('Category for slider', 'miteri'),
                     'miteri_widgets_default' => 0,
                     'miteri_widgets_field_type' => 'select',
                     'miteri_widgets_field_options' => $miteri_category_dropdown
                 ),
                 'miteri_no_of_slide' => array(
                     'miteri_widgets_name' => 'miteri_no_of_slide',
-                    'miteri_widgets_title' => esc_html__('No. of Posts', 'miteri-pro'),
+                    'miteri_widgets_title' => esc_html__('No. of Posts', 'miteri'),
                     'miteri_widgets_default' => 4,
                     'miteri_widgets_field_type' => 'number'
                 ),
                 'miteri_read_more_text' => array(
                     'miteri_widgets_name' => 'miteri_read_more_text',
-                    'miteri_widgets_title' => esc_html__('Read More', 'miteri-pro'),
+                    'miteri_widgets_title' => esc_html__('Read More', 'miteri'),
                     'miteri_widgets_default' => '',
                     'miteri_widgets_field_type' => 'text'
                 ),
                 'miteri_show_full_height' => array(
                     'miteri_widgets_name' => 'miteri_show_full_height',
-                    'miteri_widgets_title' => esc_html__('Full Height', 'miteri-pro'),
+                    'miteri_widgets_title' => esc_html__('Full Height', 'miteri'),
                     'miteri_widgets_default' => 0,
                     'miteri_widgets_field_type' => 'checkbox'
                 ),
                 'miteri_widget_width' => array(
                     'miteri_widgets_name' => 'miteri_widget_width',
-                    'miteri_widgets_title' => esc_html__('Width', 'miteri-pro'),
+                    'miteri_widgets_title' => esc_html__('Width', 'miteri'),
                     'miteri_widgets_default' => 'container',
                     'miteri_widgets_field_type' => 'select',
                     'miteri_widgets_field_options' => array(
-                        'container' => esc_html__('Box Width', 'miteri-pro'),
-                        'container-fluid' => esc_html__('Full Width', 'miteri-pro'),
+                        'container' => esc_html__('Box Width', 'miteri'),
+                        'container-fluid' => esc_html__('Full Width', 'miteri'),
                     ),
                 ),
             );

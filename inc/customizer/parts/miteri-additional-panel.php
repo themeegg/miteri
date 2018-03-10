@@ -64,8 +64,8 @@ $wp_customize->add_control(new Miteri_Repeater_Controler(
     'social_icon_bg' => array(
         'type' => 'color',
         'default' => '#214d74',
-        'label' => esc_html__('Social Icon Background', 'miteri-pro'),
-        'description' => esc_html__('Choose social media icon background color.', 'miteri-pro')
+        'label' => esc_html__('Social Icon Background', 'miteri'),
+        'description' => esc_html__('Choose social media icon background color.', 'miteri')
     ),
         )
         )

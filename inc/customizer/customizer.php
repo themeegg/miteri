@@ -141,7 +141,7 @@ function miteri_theme_customizer($wp_customize) {
         'choices' => array(
             'header-layout1' => esc_html__('Header Layout 1 (Center align layout)', 'miteri'),
             'header-layout2' => esc_html__('Header Layout 2 (Left align layout)', 'miteri'),
-            'header-layout3' => esc_html__('Layout 3(Top Header, Branding and Menu)', 'miteri-pro'),
+            'header-layout3' => esc_html__('Layout 3(Top Header, Branding and Menu)', 'miteri'),
         )
     ));
 
@@ -188,12 +188,12 @@ function miteri_theme_customizer($wp_customize) {
 
     //Top Breaking News Label
     $wp_customize->add_setting('breaking_news_label', array(
-        'default' => esc_html__('Breaking News', 'miteri-pro'),
+        'default' => esc_html__('Breaking News', 'miteri'),
         'sanitize_callback' => 'sanitize_text_field',
     ));
 
     $wp_customize->add_control('breaking_news_label', array(
-        'label' => esc_html__('Breaking News Label', 'miteri-pro'),
+        'label' => esc_html__('Breaking News Label', 'miteri'),
         'section' => 'header_section',
         'type' => 'text',
     ));
@@ -205,7 +205,7 @@ function miteri_theme_customizer($wp_customize) {
     ));
 
     $wp_customize->add_control('top_header_category', array(
-        'label' => esc_html__('Breaking News Category', 'miteri-pro'),
+        'label' => esc_html__('Breaking News Category', 'miteri'),
         'section' => 'header_section',
         'type' => 'select',
         'choices' => miteri_get_categories(),
@@ -558,10 +558,10 @@ function miteri_theme_customizer($wp_customize) {
     
     // Archives Section
     $wp_customize->add_section('layout_section', array(
-        'title' => esc_html__('Layout', 'miteri-pro'),
+        'title' => esc_html__('Layout', 'miteri'),
         'priority' => 25,
         'panel' => 'miteri_panel',
-        'description' => esc_html__('Settings for website layout.', 'miteri-pro'),
+        'description' => esc_html__('Settings for website layout.', 'miteri'),
     ));
 
     // Archives Post Layout
@@ -570,12 +570,12 @@ function miteri_theme_customizer($wp_customize) {
     ));
 
     $wp_customize->add_control('website_layout', array(
-        'label' => esc_html__('Website Layout', 'miteri-pro'),
+        'label' => esc_html__('Website Layout', 'miteri'),
         'section' => 'layout_section',
         'type' => 'radio',
         'choices' => array(
-            'box' => esc_html__('Box Width', 'miteri-pro'),
-            'full' => esc_html__('Full Width', 'miteri-pro'),
+            'box' => esc_html__('Box Width', 'miteri'),
+            'full' => esc_html__('Full Width', 'miteri'),
         )
     ));
 

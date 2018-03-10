@@ -32,7 +32,7 @@
                     $header_class = ' hide_search ';
                 }
             ?>
-	<header id="masthead" class="site-header <?php echo (get_header_image()) ? ' has-header-image ' : ''; echo $header_class; ?>" role="banner">
+	<header id="masthead" class="site-header <?php echo (get_header_image()) ? ' has-header-image ' : ''; echo esc_attr($header_class); ?>" role="banner">
 		<?php get_template_part( 'template-parts/header/header', 'layout' ); ?>
 		<?php
 			//$header_template = sanitize_file_name( get_theme_mod('header_layout', 'header-layout1') );
