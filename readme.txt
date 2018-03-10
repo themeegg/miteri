@@ -7,8 +7,8 @@ Contributors: themeegg
 Tags: grid-layout, one-column, two-column, three-column, four-column, left-sidebar, right-sidebar, accessibility-ready, custom-background, custom-colors, custom-header, custom-logo, custom-menu, editor-style, featured-images, flexible-header, footer-widgets, full-width-template, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, blog, education, entertainment, food-and-drink, holiday, photography, portfolio
 
 Requires at least: 4.3
-Tested up to: 4.9.2
-Stable tag: 1.0.8
+Tested up to: 4.9.4
+Stable tag: 1.0.9
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -64,6 +64,14 @@ Other Images:
 2. You wll find different options in customizer
 
 == Changelog ==
+= 1.0.9 - 2018/03/10 =
+	* Added - Parallax Header Image
+	* Added - Parallax Post Banner Image
+	* Added - Parallax Page Banner Image
+	* Added - Top Header Section
+	* Added - Social Icon Color Field 
+	* Added - Search Icon Show and Hide option added 
+	* Added - Layout Option(Box Size and Full Width)
 = 1.0.8 - 2018/02/05 =
 	* Added - POST CTA section added
 	* Added - Ajax Loading added
