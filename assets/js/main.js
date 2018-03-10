@@ -210,6 +210,20 @@ function ajax_load_function() {
  */
 jQuery(document).ready(function () {
 
+    jQuery(".breaking-news").owlCarousel({
+                items: 1,
+                dots: false,
+                autoplay: true,
+                autoplayTimeout: 5000, // Default is 5000
+                smartSpeed: 250, // Default is 250
+                autoplayHoverPause: false,
+                loop: true,
+                mouseDrag: false,
+                touchDrag: false,
+                animateOut: 'slideOutUp',
+                animateIn: 'slideInUp'
+            });
+
     $(window).on('scroll', function () {
         if ($('.miteri-lazy-loading').length) {
             ajax_load_function();

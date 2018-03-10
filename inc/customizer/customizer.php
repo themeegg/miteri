@@ -50,6 +50,8 @@ function miteri_theme_customizer($wp_customize) {
     $wp_customize->get_setting('blogdescription')->transport = 'postMessage';
     $wp_customize->get_setting('header_textcolor')->transport = 'postMessage';
 
+    $wp_customize->get_control('header_image')->section = 'header_section';
+
     // Change default WordPress customizer settings
     $wp_customize->get_control('background_color')->section = 'colors_general';
     $wp_customize->get_control('background_color')->priority = 1;
@@ -109,6 +111,23 @@ function miteri_theme_customizer($wp_customize) {
         'description' => esc_html__('Header settings.', 'miteri'),
     ));
 
+    // Show social media on top bar
+    $wp_customize->add_setting('show_on_branding', array(
+        'default' => 'disble',
+        'sanitize_callback' => 'sanitize_text_field',
+    ));
+
+    $wp_customize->add_control('show_on_branding', array(
+        'label' => esc_html__('Social media on branding?', 'miteri'),
+        'section' => 'header_section',
+        'type' => 'radio',
+        'choices'=> array(
+            'enable'=> esc_html__('Enable(When no header ads)', 'miteri'),
+            'disble'=> esc_html__('Disable', 'miteri'),
+        ),
+    ));
+
+
     // Header Layout
     $wp_customize->add_setting('header_layout', array(
         'default' => 'header-layout1',
@@ -122,7 +141,20 @@ function miteri_theme_customizer($wp_customize) {
         'choices' => array(
             'header-layout1' => esc_html__('Header Layout 1 (Center align layout)', 'miteri'),
             'header-layout2' => esc_html__('Header Layout 2 (Left align layout)', 'miteri'),
+            'header-layout3' => esc_html__('Layout 3(Top Header, Branding and Menu)', 'miteri-pro'),
         )
+    ));
+
+      // Show Logo On Menu
+    $wp_customize->add_setting('show_headerimage_parallax', array(
+        'default' => 0,
+        'sanitize_callback' => 'absint',
+    ));
+
+    $wp_customize->add_control('show_headerimage_parallax', array(
+        'label' => esc_html__('Parallax header image', 'miteri'),
+        'section' => 'header_section',
+        'type' => 'checkbox',
     ));
 
     // Social Media
@@ -151,6 +183,32 @@ function miteri_theme_customizer($wp_customize) {
         'label' => esc_html__('Show Search form on menu', 'miteri'),
         'section' => 'header_section',
         'type' => 'checkbox',
+    ));
+
+
+    //Top Breaking News Label
+    $wp_customize->add_setting('breaking_news_label', array(
+        'default' => esc_html__('Breaking News', 'miteri-pro'),
+        'sanitize_callback' => 'sanitize_text_field',
+    ));
+
+    $wp_customize->add_control('breaking_news_label', array(
+        'label' => esc_html__('Breaking News Label', 'miteri-pro'),
+        'section' => 'header_section',
+        'type' => 'text',
+    ));
+
+    //Top Header Category
+    $wp_customize->add_setting('top_header_category', array(
+        'default' => '',
+        'sanitize_callback' => 'miteri_sanitize_choices',
+    ));
+
+    $wp_customize->add_control('top_header_category', array(
+        'label' => esc_html__('Breaking News Category', 'miteri-pro'),
+        'section' => 'header_section',
+        'type' => 'select',
+        'choices' => miteri_get_categories(),
     ));
 
     // Blog Section
@@ -692,7 +750,8 @@ function miteri_add_styles() {
 
 
     // Header Background Color
-    if ($header_background != '') {
+    $no_parallax_header = absint(get_theme_mod('show_headerimage_parallax', 0)) ? 0 : 1;
+    if ($header_background != '' && $no_parallax_header) {
         $custom_styles .= ".site-header {background-color: {$header_background};}";
     }
 

@@ -18,6 +18,133 @@
 
 .site-header {
 	margin-bottom: 30px;
+	&.hide_search{
+		.top-search{
+			display:none;
+		}
+	}
+}
+
+.top-header{  
+	min-height:36px;
+    font-size:14px;
+    font-weight:600;
+    text-transform:uppercase;
+    background:#214d74;
+    .breaking-wrap{
+        display:block;
+        position:relative;
+        @media(min-width:480px){
+            padding:0 0 0 150px;
+        }
+        &:after{
+            clear:both;
+            content:"";
+            display:block;
+        }
+    }
+    .breaking-news-title{
+        width:100%;
+        color:#fff;
+        overflow: hidden;
+        display:block;
+        white-space: nowrap;
+        vertical-align: middle;
+        padding:6px 10px;
+        background:$secondary_color;    
+        @media(min-width:480px){
+            width:150px;
+            top:0;
+            left:0;
+            position: absolute;
+        }
+    }
+    .breaking-news{
+        list-style:none;
+        padding:0;
+        margin:0;
+        float:left;
+        width:100%;
+        @media(max-width:960px){
+            border-bottom: 1px solid #dedede;
+        }
+        a{
+            color:#fff;
+            line-height: 2em;
+            &:hover{
+                color:$secondary_color;
+            }
+        }
+        li{
+            padding:4px 10px;
+            display:none;
+            white-space: nowrap;
+            overflow: hidden;
+            max-width:100%;
+            text-overflow: ellipsis;
+            &:first-child{
+                display:block;
+            }
+        }
+        .owl-item{
+        	opacity: 0;
+        	&.active{
+        		opacity: 1;
+        	}
+        }
+    }
+    .top-menu{
+        margin:0;
+        padding:0;
+        @media(min-width:960px){
+            float:right;    
+        }
+        &:after{
+            content:"";
+            display:block;
+            clear:both;
+        }
+        li{
+            list-style: none;
+            padding:5px 0;
+            float:left;
+            a{
+                color:#fff;
+                font-size:12px;
+                display: block;
+                padding: 8px 10px;
+                line-height: 1em;
+                text-transform: uppercase;
+                border-right: 1px solid #cecece;
+                &:hover{
+                    color:$secondary_color;
+                }
+            }
+            &:last-child{
+                a{
+                    border-right:0px;
+                    padding-right:0;
+                }
+            }
+        }
+    }
+
+    .miteri-social-icons{
+        border:none;
+        @media(min-width:960px){
+            text-align: right;    
+        }
+        ul{
+            padding:0;
+            li{
+                a{
+                    height: 33px;
+                    width: 33px;
+                    padding: 10px 0 6px;
+                }
+            }
+        }
+    }
 }
 
 /* Custom Logo */
@@ -743,7 +870,8 @@ body.mobile-sidebar-active:before {
 	transform: translate(0px, -6px) rotate(45deg);
 }
 
-.header-layout-2 {
+.header-layout-2,
+.header-layout2{
 	.site-branding {
 		float: left;
 		p, a {

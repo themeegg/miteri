@@ -163,3 +163,20 @@ if (!function_exists('miteri_query_args')):
     }
 
 endif;
+
+if (!function_exists('miteri_get_categories')):
+/**
+ * Get all Categories
+ */
+function miteri_get_categories() {
+    $args = array('fields' => 'ids');
+    $categories = get_categories();
+    $categories_list = array(
+        '' => esc_html__('Select Category', 'miteri-pro')
+    );
+    foreach ($categories as $category) {
+        $categories_list['' . $category->term_id . ''] = $category->name;
+    }
+    return $categories_list;
+}
+endif;
