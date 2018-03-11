@@ -4,7 +4,7 @@ A simple and clean WordPress blog style theme with many customization options. T
 
 Contributors: themeegg
 
-Tags: grid-layout, one-column, two-column, three-column, four-column, left-sidebar, right-sidebar, accessibility-ready, custom-background, custom-colors, custom-header, custom-logo, custom-menu, editor-style, featured-images, flexible-header, footer-widgets, full-width-template, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, blog, education, entertainment, food-and-drink, holiday, photography, portfolio
+Tags: grid-layout, one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header,  custom-logo, custom-menu, editor-style, featured-images, footer-widgets, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, blog, education, entertainment, holiday, photography, news
 
 Requires at least: 4.3
 Tested up to: 4.9.4
