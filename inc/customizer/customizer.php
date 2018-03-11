@@ -555,7 +555,7 @@ function miteri_theme_customizer($wp_customize) {
         'section' => 'colors_footer',
     )));
 
-    
+
     // Archives Section
     $wp_customize->add_section('layout_section', array(
         'title' => esc_html__('Layout', 'miteri'),
@@ -567,6 +567,8 @@ function miteri_theme_customizer($wp_customize) {
     // Archives Post Layout
     $wp_customize->add_setting('website_layout', array(
         'default' => 'box',
+        'sanitize_callback' => 'sanitize_miteri_website_layout',
+
     ));
 
     $wp_customize->add_control('website_layout', array(
@@ -609,6 +611,18 @@ function miteri_sanitize_checkbox($input) {
  *
  */
 function miteri_sanitize_choices($input, $setting) {
+    global $wp_customize;
+
+    $control = $wp_customize->get_control($setting->id);
+
+    if (array_key_exists($input, $control->choices)) {
+        return $input;
+    } else {
+        return $setting->default;
+    }
+}
+
+function sanitize_miteri_website_layout($input, $setting) {
     global $wp_customize;
 
     $control = $wp_customize->get_control($setting->id);

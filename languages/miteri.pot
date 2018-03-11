@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: themeeggofficial@gmail.com\n"
-"POT-Creation-Date: 2018-03-11 06:38:06+00:00\n"
+"POT-Creation-Date: 2018-03-11 07:09:09+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -325,16 +325,16 @@ msgstr ""
 msgid "Settings for website layout."
 msgstr ""
 
-#: inc/customizer/customizer.php:573
+#: inc/customizer/customizer.php:575
 msgid "Website Layout"
 msgstr ""
 
-#: inc/customizer/customizer.php:577
+#: inc/customizer/customizer.php:579
 #: inc/widgets/class-miteri-slider-widget.php:72
 msgid "Box Width"
 msgstr ""
 
-#: inc/customizer/customizer.php:578
+#: inc/customizer/customizer.php:580
 #: inc/widgets/class-miteri-slider-widget.php:73
 #: inc/widgets/class-miteri-slider-widget.php:235
 msgid "Full Width"
