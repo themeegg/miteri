@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: themeeggofficial@gmail.com\n"
-"POT-Creation-Date: 2018-03-11 08:57:49+00:00\n"
+"POT-Creation-Date: 2018-03-11 10:20:41+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -13,20 +13,12 @@ msgstr ""
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "X-Generator: grunt-wp-i18n1.0.0\n"
 
-#: inc/admin/class-miteri-admin.php:357 inc/admin/class-miteri-admin.php:358
-msgid "6"
+#: inc/admin/class-miteri-admin.php:347
+msgid "2"
 msgstr ""
 
-#: inc/admin/class-miteri-admin.php:352
-msgid "7"
-msgstr ""
-
-#: inc/admin/class-miteri-admin.php:333
-msgid "15"
-msgstr ""
-
-#: inc/admin/class-miteri-admin.php:353
-msgid "16"
+#: inc/admin/class-miteri-admin.php:348
+msgid "20"
 msgstr ""
 
 #: 404.php:17
@@ -138,7 +130,7 @@ msgid ""
 msgstr ""
 
 #: inc/admin/class-miteri-admin.php:102
-msgid "Get started with EggNews"
+msgid "Get started with Miteri"
 msgstr ""
 
 #: inc/admin/class-miteri-admin.php:138
@@ -251,11 +243,11 @@ msgid "Features"
 msgstr ""
 
 #: inc/admin/class-miteri-admin.php:315
-msgid "Egggnews"
+msgid "Miteri"
 msgstr ""
 
 #: inc/admin/class-miteri-admin.php:316
-msgid "Eggnews Pro"
+msgid "Miteri Pro"
 msgstr ""
 
 #: inc/admin/class-miteri-admin.php:322
@@ -267,168 +259,176 @@ msgid "Forum + Emails/Support Ticket"
 msgstr ""
 
 #: inc/admin/class-miteri-admin.php:326
-msgid "Category color options"
-msgstr ""
-
-#: inc/admin/class-miteri-admin.php:331
 msgid "Additional color options"
 msgstr ""
 
-#: inc/admin/class-miteri-admin.php:336
+#: inc/admin/class-miteri-admin.php:331
 msgid "Primary color option"
 msgstr ""
 
-#: inc/admin/class-miteri-admin.php:341
+#: inc/admin/class-miteri-admin.php:336
 msgid "Font size options"
 msgstr ""
 
-#: inc/admin/class-miteri-admin.php:346
+#: inc/admin/class-miteri-admin.php:341
 msgid "Google fonts options"
 msgstr ""
 
-#: inc/admin/class-miteri-admin.php:348
+#: inc/admin/class-miteri-admin.php:343
 msgid "500+"
 msgstr ""
 
-#: inc/admin/class-miteri-admin.php:351
+#: inc/admin/class-miteri-admin.php:346
 msgid "Custom widgets"
 msgstr ""
 
-#: inc/admin/class-miteri-admin.php:356
+#: inc/admin/class-miteri-admin.php:351
 msgid "Social icons"
 msgstr ""
 
-#: inc/admin/class-miteri-admin.php:361
-msgid "Social sharing"
-msgstr ""
-
-#: inc/admin/class-miteri-admin.php:366
+#: inc/admin/class-miteri-admin.php:356
 msgid "Site layout option"
 msgstr ""
 
-#: inc/admin/class-miteri-admin.php:371
-msgid "Options in breaking news"
-msgstr ""
-
-#: inc/admin/class-miteri-admin.php:376
+#: inc/admin/class-miteri-admin.php:361
 msgid "Change read more text"
 msgstr ""
 
-#: inc/admin/class-miteri-admin.php:381
+#: inc/admin/class-miteri-admin.php:366
 msgid "Related posts"
 msgstr ""
 
-#: inc/admin/class-miteri-admin.php:386
+#: inc/admin/class-miteri-admin.php:371
 msgid "Author biography"
 msgstr ""
 
-#: inc/admin/class-miteri-admin.php:391
+#: inc/admin/class-miteri-admin.php:376
 msgid "Footer copyright editor"
 msgstr ""
 
-#: inc/admin/class-miteri-admin.php:396
-msgid "728x90 Advertisement"
+#: inc/admin/class-miteri-admin.php:381
+msgid "Author detail"
 msgstr ""
 
-#: inc/admin/class-miteri-admin.php:401
+#: inc/admin/class-miteri-admin.php:386
 msgid "Featured category slider"
 msgstr ""
 
+#: inc/admin/class-miteri-admin.php:391
+msgid "Flicker Photo Widget"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:396
+msgid "Facebook Page"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:401
+msgid "Alternative Post"
+msgstr ""
+
 #: inc/admin/class-miteri-admin.php:406
-msgid "Random posts widget"
+msgid "Counter blog widget"
 msgstr ""
 
 #: inc/admin/class-miteri-admin.php:411
-msgid "Tabbed widget"
+msgid "Portfolio widget"
 msgstr ""
 
 #: inc/admin/class-miteri-admin.php:416
-msgid "Videos"
+msgid "Post CTA widget"
 msgstr ""
 
-#: inc/admin/class-miteri-admin.php:422
-msgid "WooCommerce compatible"
+#: inc/admin/class-miteri-admin.php:421
+msgid "Post timeline"
 msgstr ""
 
-#: inc/admin/class-miteri-admin.php:427
-msgid "Multiple header options"
+#: inc/admin/class-miteri-admin.php:426
+msgid "Instagram Widget"
 msgstr ""
 
-#: inc/admin/class-miteri-admin.php:432
-msgid "Readmore flying card"
+#: inc/admin/class-miteri-admin.php:431
+msgid "Tabbed widget"
 msgstr ""
 
-#: inc/admin/class-miteri-admin.php:437
-msgid "Weather widget"
+#: inc/admin/class-miteri-admin.php:436
+msgid "Youtube Videos"
 msgstr ""
 
-#: inc/admin/class-miteri-admin.php:442
-msgid "Currency converter widget"
+#: inc/admin/class-miteri-admin.php:441
+msgid "Logo slider widget"
 msgstr ""
 
 #: inc/admin/class-miteri-admin.php:447
-msgid "Category enable/disable option"
+msgid "WooCommerce compatible"
 msgstr ""
 
 #: inc/admin/class-miteri-admin.php:452
-msgid "Reading indicator option"
+msgid "Multiple header options"
 msgstr ""
 
 #: inc/admin/class-miteri-admin.php:457
+msgid "Readmore flying card"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:463
+msgid "Reading indicator option"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:468
 msgid "Lightbox support"
 msgstr ""
 
-#: inc/admin/class-miteri-admin.php:462
+#: inc/admin/class-miteri-admin.php:473
 msgid "Call to action widget"
 msgstr ""
 
-#: inc/admin/class-miteri-admin.php:467
-msgid "Contact us template"
+#: inc/admin/class-miteri-admin.php:478
+msgid "Breadcrumbs"
 msgstr ""
 
-#: inc/admin/class-miteri-admin.php:477
+#: inc/admin/class-miteri-admin.php:488
 #: inc/customizer/parts/miteri-important-link-panel.php:24
 msgid "View Pro"
 msgstr ""
 
-#: inc/admin/class-miteri-admin.php:524
+#: inc/admin/class-miteri-admin.php:535
 msgid "This theme recommends following plugins:"
 msgstr ""
 
-#: inc/admin/class-miteri-admin.php:527
+#: inc/admin/class-miteri-admin.php:538
 #: inc/customizer/parts/miteri-additional-panel.php:20
 msgid "Social Icons"
 msgstr ""
 
-#: inc/admin/class-miteri-admin.php:528 inc/admin/class-miteri-admin.php:532
+#: inc/admin/class-miteri-admin.php:539 inc/admin/class-miteri-admin.php:543
 msgid " by ThemeEgg"
 msgstr ""
 
-#: inc/admin/class-miteri-admin.php:531
+#: inc/admin/class-miteri-admin.php:542
 msgid "Easy Social Sharing"
 msgstr ""
 
-#: inc/admin/class-miteri-admin.php:535
+#: inc/admin/class-miteri-admin.php:546
 msgid "Contact Form 7"
 msgstr ""
 
-#: inc/admin/class-miteri-admin.php:537
+#: inc/admin/class-miteri-admin.php:548
 msgid "WP-PageNavi"
 msgstr ""
 
-#: inc/admin/class-miteri-admin.php:539
+#: inc/admin/class-miteri-admin.php:550
 msgid "WooCommerce"
 msgstr ""
 
-#: inc/admin/class-miteri-admin.php:542
+#: inc/admin/class-miteri-admin.php:553
 msgid "Polylang"
 msgstr ""
 
-#: inc/admin/class-miteri-admin.php:543 inc/admin/class-miteri-admin.php:548
+#: inc/admin/class-miteri-admin.php:554 inc/admin/class-miteri-admin.php:559
 msgid "Fully Compatible in Pro Version"
 msgstr ""
 
-#: inc/admin/class-miteri-admin.php:547
+#: inc/admin/class-miteri-admin.php:558
 msgid "WPML"
 msgstr ""
 

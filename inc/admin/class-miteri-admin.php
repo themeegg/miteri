@@ -99,7 +99,7 @@ if ( ! class_exists( 'Miteri_Admin' ) ) :
 					?></p>
 				<p class="submit">
 					<a class="button-secondary"
-					   href="<?php echo esc_url( admin_url( 'themes.php?page=miteri-welcome' ) ); ?>"><?php esc_html_e( 'Get started with EggNews', 'miteri' ); ?></a>
+					   href="<?php echo esc_url( admin_url( 'themes.php?page=miteri-welcome' ) ); ?>"><?php esc_html_e( 'Get started with Miteri', 'miteri' ); ?></a>
 				</p>
 			</div>
 			<?php
@@ -312,8 +312,8 @@ if ( ! class_exists( 'Miteri_Admin' ) ) :
 					<thead>
 					<tr>
 						<th class="table-feature-title"><h3><?php esc_html_e( 'Features', 'miteri' ); ?></h3></th>
-						<th><h3><?php esc_html_e( 'Egggnews', 'miteri' ); ?></h3></th>
-						<th><h3><?php esc_html_e( 'Eggnews Pro', 'miteri' ); ?></h3></th>
+						<th><h3><?php esc_html_e( 'Miteri', 'miteri' ); ?></h3></th>
+						<th><h3><?php esc_html_e( 'Miteri Pro', 'miteri' ); ?></h3></th>
 					</tr>
 					</thead>
 					<tbody>
@@ -323,14 +323,9 @@ if ( ! class_exists( 'Miteri_Admin' ) ) :
 						<td><?php esc_html_e( 'Forum + Emails/Support Ticket', 'miteri' ); ?></td>
 					</tr>
 					<tr>
-						<td><h3><?php esc_html_e( 'Category color options', 'miteri' ); ?></h3></td>
-						<td><span class="dashicons dashicons-yes"></span></td>
-						<td><span class="dashicons dashicons-yes"></span></td>
-					</tr>
-					<tr>
 						<td><h3><?php esc_html_e( 'Additional color options', 'miteri' ); ?></h3></td>
 						<td><span class="dashicons dashicons-no"></span></td>
-						<td><?php esc_html_e( '15', 'miteri' ); ?></td>
+						<td><span class="dashicons dashicons-yes"></span></td>
 					</tr>
 					<tr>
 						<td><h3><?php esc_html_e( 'Primary color option', 'miteri' ); ?></h3></td>
@@ -349,27 +344,17 @@ if ( ! class_exists( 'Miteri_Admin' ) ) :
 					</tr>
 					<tr>
 						<td><h3><?php esc_html_e( 'Custom widgets', 'miteri' ); ?></h3></td>
-						<td><?php esc_html_e( '7', 'miteri' ); ?></td>
-						<td><?php esc_html_e( '16', 'miteri' ); ?></td>
+						<td><?php esc_html_e( '2', 'miteri' ); ?></td>
+						<td><?php esc_html_e( '20', 'miteri' ); ?></td>
 					</tr>
 					<tr>
 						<td><h3><?php esc_html_e( 'Social icons', 'miteri' ); ?></h3></td>
-						<td><?php esc_html_e( '6', 'miteri' ); ?></td>
-						<td><?php esc_html_e( '6', 'miteri' ); ?></td>
-					</tr>
-					<tr>
-						<td><h3><?php esc_html_e( 'Social sharing', 'miteri' ); ?></h3></td>
-						<td><span class="dashicons dashicons-no"></span></td>
+						<td><span class="dashicons dashicons-yes"></span></td>
 						<td><span class="dashicons dashicons-yes"></span></td>
 					</tr>
 					<tr>
 						<td><h3><?php esc_html_e( 'Site layout option', 'miteri' ); ?></h3></td>
 						<td><span class="dashicons dashicons-yes"></span></td>
-						<td><span class="dashicons dashicons-yes"></span></td>
-					</tr>
-					<tr>
-						<td><h3><?php esc_html_e( 'Options in breaking news', 'miteri' ); ?></h3></td>
-						<td><span class="dashicons dashicons-no"></span></td>
 						<td><span class="dashicons dashicons-yes"></span></td>
 					</tr>
 					<tr>
@@ -393,17 +378,52 @@ if ( ! class_exists( 'Miteri_Admin' ) ) :
 						<td><span class="dashicons dashicons-yes"></span></td>
 					</tr>
 					<tr>
-						<td><h3><?php esc_html_e( '728x90 Advertisement', 'miteri' ); ?></h3></td>
-						<td><span class="dashicons dashicons-no"></span></td>
+						<td><h3><?php esc_html_e( 'Author detail', 'miteri' ); ?></h3></td>
+						<td><span class="dashicons dashicons-yes"></span></td>
 						<td><span class="dashicons dashicons-yes"></span></td>
 					</tr>
 					<tr>
 						<td><h3><?php esc_html_e( 'Featured category slider', 'miteri' ); ?></h3></td>
-						<td><span class="dashicons dashicons-yes"></span></td>
+						<td><span class="dashicons dashicons-no"></span></td>
 						<td><span class="dashicons dashicons-yes"></span></td>
 					</tr>
 					<tr>
-						<td><h3><?php esc_html_e( 'Random posts widget', 'miteri' ); ?></h3></td>
+						<td><h3><?php esc_html_e( 'Flicker Photo Widget', 'miteri' ); ?></h3></td>
+						<td><span class="dashicons dashicons-no"></span></td>
+						<td><span class="dashicons dashicons-yes"></span></td>
+					</tr>
+					<tr>
+						<td><h3><?php esc_html_e( 'Facebook Page', 'miteri' ); ?></h3></td>
+						<td><span class="dashicons dashicons-no"></span></td>
+						<td><span class="dashicons dashicons-yes"></span></td>
+					</tr>
+					<tr>
+						<td><h3><?php esc_html_e( 'Alternative Post', 'miteri' ); ?></h3></td>
+						<td><span class="dashicons dashicons-no"></span></td>
+						<td><span class="dashicons dashicons-yes"></span></td>
+					</tr>
+					<tr>
+						<td><h3><?php esc_html_e( 'Counter blog widget', 'miteri' ); ?></h3></td>
+						<td><span class="dashicons dashicons-no"></span></td>
+						<td><span class="dashicons dashicons-yes"></span></td>
+					</tr>
+					<tr>
+						<td><h3><?php esc_html_e( 'Portfolio widget', 'miteri' ); ?></h3></td>
+						<td><span class="dashicons dashicons-no"></span></td>
+						<td><span class="dashicons dashicons-yes"></span></td>
+					</tr>
+					<tr>
+						<td><h3><?php esc_html_e( 'Post CTA widget', 'miteri' ); ?></h3></td>
+						<td><span class="dashicons dashicons-no"></span></td>
+						<td><span class="dashicons dashicons-yes"></span></td>
+					</tr>
+					<tr>
+						<td><h3><?php esc_html_e( 'Post timeline', 'miteri' ); ?></h3></td>
+						<td><span class="dashicons dashicons-no"></span></td>
+						<td><span class="dashicons dashicons-yes"></span></td>
+					</tr>
+					<tr>
+						<td><h3><?php esc_html_e( 'Instagram Widget', 'miteri' ); ?></h3></td>
 						<td><span class="dashicons dashicons-no"></span></td>
 						<td><span class="dashicons dashicons-yes"></span></td>
 					</tr>
@@ -413,7 +433,12 @@ if ( ! class_exists( 'Miteri_Admin' ) ) :
 						<td><span class="dashicons dashicons-yes"></span></td>
 					</tr>
 					<tr>
-						<td><h3><?php esc_html_e( 'Videos', 'miteri' ); ?></h3></td>
+						<td><h3><?php esc_html_e( 'Youtube Videos', 'miteri' ); ?></h3></td>
+						<td><span class="dashicons dashicons-no"></span></td>
+						<td><span class="dashicons dashicons-yes"></span></td>
+					</tr>
+					<tr>
+						<td><h3><?php esc_html_e( 'Logo slider widget', 'miteri' ); ?></h3></td>
 						<td><span class="dashicons dashicons-no"></span></td>
 						<td><span class="dashicons dashicons-yes"></span></td>
 					</tr>
@@ -433,21 +458,7 @@ if ( ! class_exists( 'Miteri_Admin' ) ) :
 						<td><span class="dashicons dashicons-no"></span></td>
 						<td><span class="dashicons dashicons-yes"></span></td>
 					</tr>
-					<tr>
-						<td><h3><?php esc_html_e( 'Weather widget', 'miteri' ); ?></h3></td>
-						<td><span class="dashicons dashicons-no"></span></td>
-						<td><span class="dashicons dashicons-yes"></span></td>
-					</tr>
-					<tr>
-						<td><h3><?php esc_html_e( 'Currency converter widget', 'miteri' ); ?></h3></td>
-						<td><span class="dashicons dashicons-no"></span></td>
-						<td><span class="dashicons dashicons-yes"></span></td>
-					</tr>
-					<tr>
-						<td><h3><?php esc_html_e( 'Category enable/disable option', 'miteri' ); ?></h3></td>
-						<td><span class="dashicons dashicons-no"></span></td>
-						<td><span class="dashicons dashicons-yes"></span></td>
-					</tr>
+
 					<tr>
 						<td><h3><?php esc_html_e( 'Reading indicator option', 'miteri' ); ?></h3></td>
 						<td><span class="dashicons dashicons-no"></span></td>
@@ -464,7 +475,7 @@ if ( ! class_exists( 'Miteri_Admin' ) ) :
 						<td><span class="dashicons dashicons-yes"></span></td>
 					</tr>
 					<tr>
-						<td><h3><?php esc_html_e( 'Contact us template', 'miteri' ); ?></h3></td>
+						<td><h3><?php esc_html_e( 'Breadcrumbs', 'miteri' ); ?></h3></td>
 						<td><span class="dashicons dashicons-no"></span></td>
 						<td><span class="dashicons dashicons-yes"></span></td>
 					</tr>
