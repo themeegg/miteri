@@ -64,7 +64,7 @@ Other Images:
 2. You wll find different options in customizer
 
 == Changelog ==
-= 1.0.9 - 2018/03/10 =
+= 1.0.9 - 2018/03/11 =
 	* Added - Parallax Header Image
 	* Added - Parallax Post Banner Image
 	* Added - Parallax Page Banner Image
