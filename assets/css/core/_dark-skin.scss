@@ -1,6 +1,6 @@
 $dark_primary_color: #fff;
 $dark_primary_bg: #111;
-$dark_link_color: #a14242;
+$dark_link_color: #ff8400;
 $dark_link_hover: #da6565;
 $dark_deep_color: #000;
 $dark_button_bg: #222;
@@ -14,14 +14,18 @@ body.dark_skin{
 
 	background:#222;
 	a{
-		color:#a14242;
+		color:$dark_link_color;
 			&:hover{
-				color:#da6565;
+				color:dark_link_hover;
 			}
 	}
 
 	button, input[type="button"], input[type="reset"], input[type="submit"]{
 			background:$dark_button_bg;
+	}
+
+	h1, h2, .blog-box .widget-title, h3, h4, h5, h6{
+		color:$dark_primary_color;
 	}
 
 	/*============================================================================
@@ -35,11 +39,20 @@ body.dark_skin{
 		}
 	}
 
+	.site-branding{
+		background-color:#000;
+	}
+
 	.main-navbar{
 		background:$dark_primary_bg;
 		border-bottom-color:$dark_deep_color;
 	}
 
+	@media (min-width: 960px){
+		.main-navigation > ul > li > a:hover {
+		    background: $dark_link_color;
+		}
+	}
 	/*============================================================================
 	------------------------------ Reset Sidebar ------------------------------
 	============================================================================*/
@@ -86,6 +99,15 @@ body.dark_skin{
 		color:#dbd1d1;
 	}
 
+	.author-info{
+		background:#222;
+		color:#fff;
+	}
+
+	.author-bio{
+		color:$dark_primary_color;
+	}
+
 	.blog-box{
 		.innerbox-wraper{
 			background-color:#999;
@@ -116,8 +138,17 @@ body.dark_skin{
 	}
 
 	.card {
-		background: #f0f0f0;
+		color:#fff;
+		background: transparent;
+    	border: 1px solid #fff;
+
 	} 
+
+	.card-profile{
+		.card-title{
+			color:$dark_link_color;
+		}
+	}
 
 	.tags-links, .cat-links{
 		a{
@@ -199,6 +230,11 @@ body.dark_skin{
 					text-decoration: none;
 				}
 			}
+			.tagcloud{
+				a, a:hover{
+					color:$dark_primary_color;
+				}
+			}
 		}
 
 		.textwidget{
@@ -216,5 +252,5 @@ body.dark_skin{
 	.footer-copy {
 		background: $dark_primary_bg;
 	}
-	
+
 }

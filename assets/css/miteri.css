@@ -3576,18 +3576,25 @@ body.dark_skin {
 	------------------------------ Footer Section ------------------------------
 	============================================================================*/ }
   body.dark_skin a {
-    color: #a14242; }
+    color: #ff8400; }
     body.dark_skin a:hover {
-      color: #da6565; }
+      color: dark_link_hover; }
   body.dark_skin button, body.dark_skin input[type="button"], body.dark_skin input[type="reset"], body.dark_skin input[type="submit"] {
     background: #222; }
+  body.dark_skin h1, body.dark_skin h2, body.dark_skin .blog-box .widget-title, .blog-box body.dark_skin .widget-title, body.dark_skin .blog-box .widget-title, body.dark_skin h3, body.dark_skin h4, body.dark_skin h5, body.dark_skin h6 {
+    color: #fff; }
   body.dark_skin .top-header {
     background: #111; }
     body.dark_skin .top-header .breaking-news-title {
       background: #a14242; }
+  body.dark_skin .site-branding {
+    background-color: #000; }
   body.dark_skin .main-navbar {
     background: #111;
     border-bottom-color: #000; }
+  @media (min-width: 960px) {
+    body.dark_skin .main-navigation > ul > li > a:hover {
+      background: #ff8400; } }
   body.dark_skin .widget-title,
   body.dark_skin .page-title,
   body.dark_skin .entry-title {
@@ -3606,6 +3613,11 @@ body.dark_skin {
     border-color: #b9b9b9; }
   body.dark_skin .entry-summary {
     color: #dbd1d1; }
+  body.dark_skin .author-info {
+    background: #222;
+    color: #fff; }
+  body.dark_skin .author-bio {
+    color: #fff; }
   body.dark_skin .blog-box .innerbox-wraper {
     background-color: #999; }
   body.dark_skin .comment-content {
@@ -3622,11 +3634,15 @@ body.dark_skin {
   body.dark_skin .post-wrapper article:hover {
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3), 0 10px 10px rgba(0, 0, 0, 0.2); }
   body.dark_skin .card {
-    background: #f0f0f0; }
+    color: #fff;
+    background: transparent;
+    border: 1px solid #fff; }
+  body.dark_skin .card-profile .card-title {
+    color: #ff8400; }
   body.dark_skin .tags-links a, body.dark_skin .cat-links a {
     color: #fff;
-    border-color: #a14242;
-    background: #a14242; }
+    border-color: #ff8400;
+    background: #ff8400; }
     body.dark_skin .tags-links a:hover, body.dark_skin .cat-links a:hover {
       border-color: #da6565;
       background: #da6565; }
@@ -3670,6 +3686,8 @@ body.dark_skin {
       body.dark_skin .site-footer .widget a:hover {
         color: #ff8400;
         text-decoration: none; }
+    body.dark_skin .site-footer .widget .tagcloud a, body.dark_skin .site-footer .widget .tagcloud a:hover {
+      color: #fff; }
     body.dark_skin .site-footer .textwidget p {
       color: #666; }
   body.dark_skin .site-info a,
