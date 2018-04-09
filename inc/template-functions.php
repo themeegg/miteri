@@ -180,3 +180,17 @@ function miteri_get_categories() {
     return $categories_list;
 }
 endif;
+
+if(!function_exists('miteri_add_class_to_body')){
+
+    function miteri_add_class_to_body($classes){
+
+        $website_skin = get_theme_mod('website_skin', 'no_skin');
+        $classes[] = $website_skin;
+        return $classes;
+
+    }
+
+}
+
+add_filter('body_class', 'miteri_add_class_to_body');

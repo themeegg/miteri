@@ -3557,3 +3557,239 @@ object {
   /* Footer */
   .site-footer {
     margin-top: 30px; } }
+
+body.dark_skin {
+  /*============================================================================
+	------------------------------ Reset Dark Skin ------------------------------
+	============================================================================*/
+  background: #222;
+  /*============================================================================
+	------------------------------ Header Section ------------------------------
+	============================================================================*/
+  /*============================================================================
+	------------------------------ Reset Sidebar ------------------------------
+	============================================================================*/
+  /*============================================================================
+	------------------------------ Blog Section ------------------------------
+	============================================================================*/
+  /*============================================================================
+	------------------------------ Footer Section ------------------------------
+	============================================================================*/ }
+  body.dark_skin a {
+    color: #a14242; }
+    body.dark_skin a:hover {
+      color: #da6565; }
+  body.dark_skin button, body.dark_skin input[type="button"], body.dark_skin input[type="reset"], body.dark_skin input[type="submit"] {
+    background: #222; }
+  body.dark_skin .top-header {
+    background: #111; }
+    body.dark_skin .top-header .breaking-news-title {
+      background: #a14242; }
+  body.dark_skin .main-navbar {
+    background: #111;
+    border-bottom-color: #000; }
+  body.dark_skin .widget-title,
+  body.dark_skin .page-title,
+  body.dark_skin .entry-title {
+    color: #e6dbdb; }
+    body.dark_skin .widget-title a,
+    body.dark_skin .page-title a,
+    body.dark_skin .entry-title a {
+      color: inherit; }
+  body.dark_skin .widget-area ul li {
+    border-color: #b9b9b9; }
+    body.dark_skin .widget-area ul li:before {
+      color: #fff; }
+    body.dark_skin .widget-area ul li a {
+      color: #fff; }
+  body.dark_skin .sidebar .widget-title span:after, body.dark_skin .sidebar .widget-title span:before {
+    border-color: #b9b9b9; }
+  body.dark_skin .entry-summary {
+    color: #dbd1d1; }
+  body.dark_skin .blog-box .innerbox-wraper {
+    background-color: #999; }
+  body.dark_skin .comment-content {
+    color: #fff; }
+  body.dark_skin .comment-form label,
+  body.dark_skin .comments-title,
+  body.dark_skin .comment-reply-title {
+    color: #fff; }
+  body.dark_skin .blog-box .btn-wraper {
+    box-shadow: none; }
+  body.dark_skin .post-wrapper article,
+  body.dark_skin aside.sidebar .widget {
+    background: #111; }
+  body.dark_skin .post-wrapper article:hover {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3), 0 10px 10px rgba(0, 0, 0, 0.2); }
+  body.dark_skin .card {
+    background: #f0f0f0; }
+  body.dark_skin .tags-links a, body.dark_skin .cat-links a {
+    color: #fff;
+    border-color: #a14242;
+    background: #a14242; }
+    body.dark_skin .tags-links a:hover, body.dark_skin .cat-links a:hover {
+      border-color: #da6565;
+      background: #da6565; }
+  body.dark_skin .posts-navigation .nav-previous:before {
+    border-right: none; }
+  body.dark_skin .content-area {
+    background: #111;
+    color: #fff;
+    margin-bottom: 30px; }
+  body.dark_skin .entry-footer,
+  body.dark_skin .post-navigation {
+    border-color: #999; }
+  body.dark_skin .hentry,
+  body.dark_skin .no-results {
+    border-color: #999; }
+  body.dark_skin .comment-form textarea,
+  body.dark_skin .entry-content input,
+  body.dark_skin .entry-content textarea {
+    background: #fff; }
+  body.dark_skin .entry-content input[type="submit"] {
+    color: #222; }
+  body.dark_skin .site-content {
+    padding: 30px 0; }
+  body.dark_skin .tags-links {
+    color: #3c3c3c; }
+  body.dark_skin .comment-list li {
+    border-color: #999; }
+  body.dark_skin .comment-form input[type="submit"] {
+    margin-bottom: 20px; }
+  body.dark_skin .site-footer {
+    border-color: #333; }
+    body.dark_skin .site-footer h3 {
+      color: #f0f0f0; }
+    body.dark_skin .site-footer .widget-area {
+      background-color: #171717;
+      border: none; }
+      body.dark_skin .site-footer .widget-area ul li {
+        border-color: #333; }
+    body.dark_skin .site-footer .widget a {
+      color: #ccc; }
+      body.dark_skin .site-footer .widget a:hover {
+        color: #ff8400;
+        text-decoration: none; }
+    body.dark_skin .site-footer .textwidget p {
+      color: #666; }
+  body.dark_skin .site-info a,
+  body.dark_skin .site-credits {
+    color: #ccc; }
+  body.dark_skin .footer-copy {
+    background: #111; }
+
+/*
+Theme Name: Miteri
+Theme URI: https://themeegg.com/downloads/miteri/
+Author: ThemeEgg
+Author URI: https://themeegg.com
+Description: A simple and clean WordPress blog style theme with many customization options. This theme is mainly applicable for blogs .It's customizable theme. If any support needed then hit the url https://themeegg.com/support-forum/ please check the demo on https://demo.themeegg.com/themes/miteri
+Version: 1.0.9
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: miteri
+Tags: grid-layout, one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header,  custom-logo, custom-menu, editor-style, featured-images, footer-widgets, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, blog, education, entertainment, holiday, photography, news
+*/
+.skin_one {
+  /*.grid-post .entry-category {
+	    margin: 20px 0;
+	}*/
+  /*.grid-post .entry-meta {
+		margin: 12px 0  ;
+	}*/
+  /*contact-us*/
+  /*catagories*/ }
+  .skin_one .main-navigation > ul > li > a {
+    padding: 8px 25px; }
+  .skin_one #masthead .site-branding h1 {
+    text-transform: uppercase; }
+  .skin_one .tags-links a, .skin_one .cat-links a {
+    padding: 5px;
+    border-radius: 5px; }
+  .skin_one .tags-links a, .skin_one .cat-links a {
+    font-size: 12px;
+    font-weight: 500; }
+  .skin_one .blog-box ul li {
+    border-radius: 3px; }
+  .skin_one .blog-box ul li a {
+    font-weight: 500;
+    font-size: 14px; }
+  .skin_one .entry-meta {
+    color: #3c3c3c; }
+  .skin_one .post-wrapper article {
+    padding: 0; }
+  .skin_one .grid-post .entry-summary,
+  .skin_one .large-post .entry-summary {
+    padding: 5px 15px 20px;
+    text-align: center; }
+  .skin_one .blog-box ul li a {
+    padding: 8px 15px; }
+  .skin_one .blog-box ul li:before, .skin_one .blog-box ul li:after {
+    background: none; }
+  .skin_one .blog-box ul li {
+    background: rgba(50, 117, 175, 0.9);
+    -webkit-transition: all 0.6s ease;
+    transition: all 0.6s ease; }
+  .skin_one .blog-box .btn-wraper:hover {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3), 0 10px 10px rgba(0, 0, 0, 0.2); }
+  .skin_one .grid-post .entry-meta,
+  .skin_one .large-post .entry-meta {
+    margin: 20px 0 12px; }
+  .skin_one .sidebar .widget-title span:before, .skin_one .sidebar .widget-title span:after {
+    border-top: 2px solid #f5f5f5;
+    content: "";
+    position: absolute;
+    right: -603px;
+    top: 10px;
+    width: 585px; }
+  .skin_one .page.type-page .entry-title {
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: #222; }
+  .skin_one .site-title-centered .header-image .site-title a {
+    color: #fff;
+    text-transform: uppercase !important; }
+  .skin_one aside.sidebar .widget {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); }
+  .skin_one .site-content .widget.widget_search {
+    box-shadow: none;
+    background: none; }
+  .skin_one input[type="text"],
+  .skin_one input[type="email"] {
+    width: 100%; }
+  .skin_one .entry-content {
+    font-size: 14px; }
+  .skin_one button,
+  .skin_one input[type="button"],
+  .skin_one input[type="reset"],
+  .skin_one input[type="submit"] {
+    padding: 10px 40px;
+    border-radius: 5px; }
+  .skin_one .grid-post .entry-wrap {
+    float: left;
+    width: 65%;
+    padding: 20px 0; }
+  .skin_one .list-post .entry-thumbnail {
+    padding: 15px 10px; }
+  .skin_one .entry-summary p:last-child {
+    font-size: 14px; }
+  .skin_one .list-post .entry-thumbnail {
+    margin-top: 10px; }
+  .skin_one .list-post .entry-meta {
+    margin: 10px 0  20px; }
+  .skin_one .list-post .entry-wrap {
+    padding: 20px 30px; }
+  .skin_one .large-post .entry-title {
+    margin: 30px 0; }
+  .skin_one .large-post .entry-summary {
+    margin: 20px 0; }
+  .skin_one .widget-area ul li:hover {
+    color: #000; }
+  .skin_one body .widget-area ul li a:hover {
+    color: #ff8400; }
+  .skin_one .comment-form input[type="submit"] {
+    margin-bottom: 20px; }
+  .skin_one .site-content {
+    padding: 30px 0; }
+  .skin_one .widget-area ul li:hover a {
+    color: #444; }

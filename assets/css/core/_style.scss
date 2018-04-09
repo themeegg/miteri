@@ -1,0 +1,177 @@
+/*
+Theme Name: Miteri
+Theme URI: https://themeegg.com/downloads/miteri/
+Author: ThemeEgg
+Author URI: https://themeegg.com
+Description: A simple and clean WordPress blog style theme with many customization options. This theme is mainly applicable for blogs .It's customizable theme. If any support needed then hit the url https://themeegg.com/support-forum/ please check the demo on https://demo.themeegg.com/themes/miteri
+Version: 1.0.9
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: miteri
+Tags: grid-layout, one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header,  custom-logo, custom-menu, editor-style, featured-images, footer-widgets, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, blog, education, entertainment, holiday, photography, news
+*/
+
+.skin_one{
+	.main-navigation > ul > li > a {
+		padding: 8px 25px;
+	}
+	#masthead .site-branding h1 {
+		text-transform: uppercase;
+	}
+	.tags-links a, .cat-links a {
+		padding: 5px;
+		border-radius: 5px;
+	}
+	.tags-links a, .cat-links a {
+		font-size: 12px;
+		font-weight: 500;
+	}
+
+	/*.grid-post .entry-category {
+	    margin: 20px 0;
+	}*/
+	.blog-box ul li {
+		border-radius: 3px;
+	}
+	.blog-box ul li a {
+		font-weight: 500;
+		font-size: 14px;
+	}
+	.entry-meta {
+		color: #3c3c3c;
+	}
+
+	.tags-links a:hover, .cat-links a:hover {
+
+	}
+	.post-wrapper article {
+		padding: 0;
+	}
+	.grid-post .entry-summary,
+	.large-post .entry-summary {
+		padding:5px 15px 20px ;
+		text-align: center; 
+	}
+	.blog-box ul li a {
+		padding: 8px 15px;
+	}
+	.blog-box ul li:before, .blog-box ul li:after  {
+		background: none;
+	}
+
+	.blog-box ul li {
+		background: rgba(50, 117, 175, 0.9);
+		-webkit-transition: all 0.6s ease;
+	-moz-transition: all 0.6s ease;
+	-ms-transition: all 0.6s ease;
+	-o-transition: all 0.6s ease;
+	transition: all 0.6s ease;
+	}
+	.blog-box ul {
+
+	}
+
+	.blog-box .btn-wraper:hover {
+		box-shadow: 0 12px 24px rgba(0,0,0,0.3), 0 10px 10px rgba(0,0,0,0.2); 
+	   
+	}
+
+	/*.grid-post .entry-meta {
+		margin: 12px 0  ;
+	}*/
+	.grid-post .entry-meta,
+	.large-post .entry-meta
+	  {
+	   margin: 20px 0 12px;
+
+	}
+	.sidebar .widget-title span:before, .sidebar .widget-title span:after {
+	    border-top: 2px solid #f5f5f5;
+	    content: "";
+	    position: absolute;
+	    right: -603px;
+	    top: 10px;
+	    width: 585px;
+	}
+
+	/*contact-us*/
+	.page.type-page .entry-title {
+		text-transform: uppercase;
+		font-size: 2rem;
+		color: #222;
+	}
+
+	.site-title-centered .header-image .site-title a {
+	    color: #fff;
+	    text-transform: uppercase!important;
+	}
+	aside.sidebar .widget {
+		box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+
+	}
+	 .site-content .widget.widget_search {
+	  box-shadow: none;
+	  background: none;
+	}
+
+	input[type="text"],
+	 input[type="email"] {
+	 	width: 100%;
+	 }
+	 .entry-content {
+	 	font-size: 14px;
+	 }
+	 button, 
+	 input[type="button"], 
+	 input[type="reset"], 
+	 input[type="submit"] {
+	 	padding: 10px 40px;
+	 	border-radius: 5px;
+
+	 }
+
+	 /*catagories*/
+
+	 .grid-post .entry-wrap {
+	 	float: left;
+	    width: 65%;
+	    padding: 20px 0;
+	 }
+	 .list-post .entry-thumbnail {
+	 	padding: 15px 10px;
+	 }
+	 .entry-summary p:last-child {
+	 	font-size: 14px;
+	 }
+	 .list-post .entry-thumbnail {
+	    margin-top: 10px ;
+	}
+	.list-post .entry-meta {
+	    margin:10px 0  20px;
+	}
+	.list-post .entry-wrap {
+		padding: 20px 30px;
+	}
+	.large-post .entry-title {
+		margin: 30px 0;
+	}
+	.large-post .entry-summary {
+		margin: 20px 0;
+	}
+	.widget-area ul li:hover {
+		color:#000;
+	}
+	body .widget-area ul li a:hover {
+		    color: #ff8400 ;
+	}
+	 .comment-form input[type="submit"] {
+		margin-bottom: 20px;
+		
+	}
+	.site-content {
+		padding: 30px 0;
+	}
+	.widget-area ul li:hover a {
+	     color: #444; 
+	}
+}

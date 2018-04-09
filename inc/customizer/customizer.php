@@ -580,6 +580,22 @@ function miteri_theme_customizer($wp_customize) {
     ));
 
 
+    $wp_customize->add_setting('website_skin', array(
+        'default' => 'no_skin',
+    ));
+
+    $wp_customize->add_control('website_skin', array(
+        'label' => esc_html__('Website Layout', 'miteri'),
+        'section' => 'layout_section',
+        'type' => 'radio',
+        'choices' => array(
+            'no_skin' => esc_html__('Default', 'miteri'),
+            'dark_skin' => esc_html__('Dark Skin', 'miteri'),
+            'skin_one' => esc_html__('Skin One', 'miteri'),
+        )
+    ));
+
+
     require get_template_directory() . '/inc/customizer/parts/miteri-additional-panel.php';         // Additional Panel
 
     /* --------------------------------------------- additional settings ------- */
