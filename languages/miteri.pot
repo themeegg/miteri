@@ -1,17 +1,25 @@
-# Copyright (C) 2018
+# Copyright (C) 2018 
 # This file is distributed under the same license as the  package.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: themeeggofficial@gmail.com\n"
-"POT-Creation-Date: 2018-03-10 07:33:59+00:00\n"
+"POT-Creation-Date: 2018-03-11 10:20:41+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
-"X-Generator: grunt-wp-i18n1.0.2\n"
+"X-Generator: grunt-wp-i18n1.0.0\n"
+
+#: inc/admin/class-miteri-admin.php:347
+msgid "2"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:348
+msgid "20"
+msgstr ""
 
 #: 404.php:17
 msgid "Oops! That page can&rsquo;t be found."
@@ -96,6 +104,332 @@ msgstr ""
 
 #: header.php:27
 msgid "Skip to content"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:36 inc/admin/class-miteri-admin.php:122
+msgid "About"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:76
+msgid "Action failed. Please refresh the page and retry."
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:80
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:95
+msgid "Dismiss"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:98
+#. translators: 1: anchor tag start, 2: anchor tag end
+msgid ""
+"Welcome! Thank you for choosing miteri! To fully take advantage of the best "
+"our theme can offer please make sure you visit our %1$swelcome page%1$s."
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:102
+msgid "Get started with Miteri"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:138
+#: inc/customizer/parts/miteri-important-link-panel.php:28
+msgid "Theme Info"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:142
+#: inc/customizer/parts/miteri-important-link-panel.php:40
+msgid "View Demo"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:146
+#: inc/customizer/parts/miteri-important-link-panel.php:44
+msgid "Rate this theme"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:149
+msgid "View Pro Version"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:165
+msgid "Changelog"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:173
+msgid "Free Vs Pro"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:208
+msgid "Theme Customizer"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:209
+msgid "All Theme Options are available via Customize screen."
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:211
+msgid "Customize"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:216 inc/admin/class-miteri-admin.php:219
+#: inc/customizer/parts/miteri-important-link-panel.php:36
+msgid "Documentation"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:217
+msgid "Please view our documentation page to setup the theme."
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:224
+msgid "Got theme support question?"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:225
+msgid "Please put it in our dedicated support forum."
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:227 inc/admin/class-miteri-admin.php:321
+#: inc/customizer/parts/miteri-important-link-panel.php:32
+msgid "Support"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:231
+msgid "Any question about this theme or us?"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:232
+msgid "Please send it via our sales contact page."
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:234
+msgid "Contact Page"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:241 inc/admin/class-miteri-admin.php:250
+msgid "Translate"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:245
+msgid "Click below to translate this theme into your own language."
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:262
+msgid "Return to Updates"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:262
+msgid "Return to Dashboard &rarr; Updates"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:265
+msgid "Go to Dashboard &rarr; Home"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:265
+msgid "Go to Dashboard"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:282
+msgid "View changelog below:"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:309
+msgid "Upgrade to PRO version for more awesome features."
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:314
+msgid "Features"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:315
+msgid "Miteri"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:316
+msgid "Miteri Pro"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:322
+msgid "Forum"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:323
+msgid "Forum + Emails/Support Ticket"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:326
+msgid "Additional color options"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:331
+msgid "Primary color option"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:336
+msgid "Font size options"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:341
+msgid "Google fonts options"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:343
+msgid "500+"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:346
+msgid "Custom widgets"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:351
+msgid "Social icons"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:356
+msgid "Site layout option"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:361
+msgid "Change read more text"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:366
+msgid "Related posts"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:371
+msgid "Author biography"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:376
+msgid "Footer copyright editor"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:381
+msgid "Author detail"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:386
+msgid "Featured category slider"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:391
+msgid "Flicker Photo Widget"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:396
+msgid "Facebook Page"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:401
+msgid "Alternative Post"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:406
+msgid "Counter blog widget"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:411
+msgid "Portfolio widget"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:416
+msgid "Post CTA widget"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:421
+msgid "Post timeline"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:426
+msgid "Instagram Widget"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:431
+msgid "Tabbed widget"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:436
+msgid "Youtube Videos"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:441
+msgid "Logo slider widget"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:447
+msgid "WooCommerce compatible"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:452
+msgid "Multiple header options"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:457
+msgid "Readmore flying card"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:463
+msgid "Reading indicator option"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:468
+msgid "Lightbox support"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:473
+msgid "Call to action widget"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:478
+msgid "Breadcrumbs"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:488
+#: inc/customizer/parts/miteri-important-link-panel.php:24
+msgid "View Pro"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:535
+msgid "This theme recommends following plugins:"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:538
+#: inc/customizer/parts/miteri-additional-panel.php:20
+msgid "Social Icons"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:539 inc/admin/class-miteri-admin.php:543
+msgid " by ThemeEgg"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:542
+msgid "Easy Social Sharing"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:546
+msgid "Contact Form 7"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:548
+msgid "WP-PageNavi"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:550
+msgid "WooCommerce"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:553
+msgid "Polylang"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:554 inc/admin/class-miteri-admin.php:559
+msgid "Fully Compatible in Pro Version"
+msgstr ""
+
+#: inc/admin/class-miteri-admin.php:558
+msgid "WPML"
 msgstr ""
 
 #: inc/customizer/customizer.php:60
@@ -325,16 +659,16 @@ msgstr ""
 msgid "Settings for website layout."
 msgstr ""
 
-#: inc/customizer/customizer.php:573
+#: inc/customizer/customizer.php:575
 msgid "Website Layout"
 msgstr ""
 
-#: inc/customizer/customizer.php:577
+#: inc/customizer/customizer.php:579
 #: inc/widgets/class-miteri-slider-widget.php:72
 msgid "Box Width"
 msgstr ""
 
-#: inc/customizer/customizer.php:578
+#: inc/customizer/customizer.php:580
 #: inc/widgets/class-miteri-slider-widget.php:73
 #: inc/widgets/class-miteri-slider-widget.php:235
 msgid "Full Width"
@@ -342,10 +676,6 @@ msgstr ""
 
 #: inc/customizer/parts/miteri-additional-panel.php:8
 msgid "Additional Settings"
-msgstr ""
-
-#: inc/customizer/parts/miteri-additional-panel.php:20
-msgid "Social Icons"
 msgstr ""
 
 #: inc/customizer/parts/miteri-additional-panel.php:47
@@ -392,6 +722,14 @@ msgstr ""
 msgid "Close"
 msgstr ""
 
+#: inc/customizer/parts/miteri-important-link-panel.php:56
+msgid "Miteri Important Links"
+msgstr ""
+
+#: inc/customizer/parts/miteri-important-link-panel.php:68
+msgid "Important Links"
+msgstr ""
+
 #: inc/template-functions.php:132 inc/template-functions.php:175
 msgid "Select Category"
 msgstr ""
@@ -420,34 +758,34 @@ msgid "Edit %s"
 msgstr ""
 
 #: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:327
-#: inc/tgm-plugin-activation/tgmpa-miteri.php:43
+#: inc/tgm-plugin-activation/tgmpa-miteri.php:51
 msgid "Install Recommended Plugins"
 msgstr ""
 
 #: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:328
-#: inc/tgm-plugin-activation/tgmpa-miteri.php:44
+#: inc/tgm-plugin-activation/tgmpa-miteri.php:52
 msgid "Install Plugins"
 msgstr ""
 
 #: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:330
-#: inc/tgm-plugin-activation/tgmpa-miteri.php:46
+#: inc/tgm-plugin-activation/tgmpa-miteri.php:54
 #. translators: %s: plugin name.
 msgid "Installing Plugin: %s"
 msgstr ""
 
 #: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:332
-#: inc/tgm-plugin-activation/tgmpa-miteri.php:48
+#: inc/tgm-plugin-activation/tgmpa-miteri.php:56
 #. translators: %s: plugin name.
 msgid "Updating Plugin: %s"
 msgstr ""
 
 #: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:333
-#: inc/tgm-plugin-activation/tgmpa-miteri.php:49
+#: inc/tgm-plugin-activation/tgmpa-miteri.php:57
 msgid "Something went wrong with the plugin API."
 msgstr ""
 
 #: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:370
-#: inc/tgm-plugin-activation/tgmpa-miteri.php:86
+#: inc/tgm-plugin-activation/tgmpa-miteri.php:94
 #. translators: 1: plugin name(s).
 msgid "Begin installing plugin"
 msgid_plural "Begin installing plugins"
@@ -455,14 +793,14 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:375
-#: inc/tgm-plugin-activation/tgmpa-miteri.php:91
+#: inc/tgm-plugin-activation/tgmpa-miteri.php:99
 msgid "Begin updating plugin"
 msgid_plural "Begin updating plugins"
 msgstr[0] ""
 msgstr[1] ""
 
 #: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:380
-#: inc/tgm-plugin-activation/tgmpa-miteri.php:96
+#: inc/tgm-plugin-activation/tgmpa-miteri.php:104
 msgid "Begin activating plugin"
 msgid_plural "Begin activating plugins"
 msgstr[0] ""
@@ -481,24 +819,24 @@ msgstr ""
 
 #: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:387
 #: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3159
-#: inc/tgm-plugin-activation/tgmpa-miteri.php:102
+#: inc/tgm-plugin-activation/tgmpa-miteri.php:110
 msgid "Plugin activated successfully."
 msgstr ""
 
 #: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:388
 #: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2952
-#: inc/tgm-plugin-activation/tgmpa-miteri.php:103
+#: inc/tgm-plugin-activation/tgmpa-miteri.php:111
 msgid "The following plugin was activated successfully:"
 msgstr ""
 
 #: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:390
-#: inc/tgm-plugin-activation/tgmpa-miteri.php:105
+#: inc/tgm-plugin-activation/tgmpa-miteri.php:113
 #. translators: 1: plugin name.
 msgid "No action taken. Plugin %1$s was already active."
 msgstr ""
 
 #: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:392
-#: inc/tgm-plugin-activation/tgmpa-miteri.php:107
+#: inc/tgm-plugin-activation/tgmpa-miteri.php:115
 #. translators: 1: plugin name.
 msgid ""
 "Plugin not activated. A higher version of %s is needed for this theme. "
@@ -506,25 +844,25 @@ msgid ""
 msgstr ""
 
 #: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:394
-#: inc/tgm-plugin-activation/tgmpa-miteri.php:109
+#: inc/tgm-plugin-activation/tgmpa-miteri.php:117
 #. translators: 1: dashboard link.
 msgid "All plugins installed and activated successfully. %1$s"
 msgstr ""
 
 #: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:395
-#: inc/tgm-plugin-activation/tgmpa-miteri.php:110
+#: inc/tgm-plugin-activation/tgmpa-miteri.php:118
 msgid "Dismiss this notice"
 msgstr ""
 
 #: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:396
-#: inc/tgm-plugin-activation/tgmpa-miteri.php:111
+#: inc/tgm-plugin-activation/tgmpa-miteri.php:119
 msgid ""
 "There are one or more required or recommended plugins to install, update or "
 "activate."
 msgstr ""
 
 #: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:397
-#: inc/tgm-plugin-activation/tgmpa-miteri.php:112
+#: inc/tgm-plugin-activation/tgmpa-miteri.php:120
 msgid "Please contact the administrator of this site for help."
 msgstr ""
 
@@ -781,7 +1119,7 @@ msgstr ""
 msgid "Installing Plugin %1$s (%2$d/%3$d)"
 msgstr ""
 
-#: inc/tgm-plugin-activation/tgmpa-miteri.php:101
+#: inc/tgm-plugin-activation/tgmpa-miteri.php:109
 msgid "Return to Required Plugins Installer"
 msgstr ""
 

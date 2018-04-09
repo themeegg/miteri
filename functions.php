@@ -147,7 +147,7 @@ function miteri_scripts() {
 
     // Add Font Awesome Icons
     wp_enqueue_style('font-awesome', get_template_directory_uri() . '/assets/lib/font-awesome/css/font-awesome.css', array(), '4.7');
-    
+
     wp_enqueue_style('owl-carousel', get_template_directory_uri() . '/assets/css/vendor/owl.carousel.min.css', array(), '4.7');
 
     if (is_rtl()):
@@ -162,7 +162,7 @@ function miteri_scripts() {
     wp_localize_script('jquery', 'miteri_global_object', array('ajax_url' => admin_url('admin-ajax.php')));
 
     wp_enqueue_script('miteri-skip-link-focus-fix', get_template_directory_uri() . '/assets/js/skip-link-focus-fix.js', array(), '20151215', true);
-    
+
     wp_enqueue_script('parallax', get_template_directory_uri() . '/assets/lib/parallax/parallax.min.js', array(), '1.5.0', true);
 
     wp_enqueue_script('owl-carousel', get_template_directory_uri() . '/assets/js/owl.carousel.min.js', array(), '2.2.1', true);
@@ -542,6 +542,15 @@ function miteri_credits() {
 }
 
 require_once( MITERI_INCLUDES_DIR . '/class-miteri-widgets.php' );
+
+require get_template_directory() . '/inc/customizer/miteri-sanitize.php'; //custom classes
+require get_template_directory() . '/inc/customizer.php';
+
+/* Calling in the admin area for the Welcome Page */
+if ( is_admin() ) {
+	require get_template_directory() . '/inc/admin/class-miteri-admin.php';
+}
+
 
 /**
  * Load TGMPA Configs.

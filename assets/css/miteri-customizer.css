@@ -165,24 +165,20 @@
 	background-color: #006d80
 }
 
-.miteri-imp-link {
-	font-weight: 500;
-	background: #294a70;
-	padding: 10px 10px;
-	color: #fff !important;
-	text-align: center;
-	display: block;
-	margin-top: 5px;
-	line-height: 1.5;
-	box-shadow: none;
-	font-style: normal;
-	text-decoration: none
+#customize-controls #accordion-section-miteri_important_links h3.accordion-section-title {
+	background: #1e73be;
+	color: #fff;
 }
 
-.miteri-imp-link:focus {
-	box-shadow: none !important
+#customize-controls #accordion-section-miteri_important_links h3.accordion-section-title:after {
+	color: #fff;
 }
 
-.miteri-imp-link:hover {
-	background: #294a70
+#sub-accordion-section-miteri_important_links li.customize-control-miteri-important-links p a {
+	width: 100%;
+	display: inline-block;
+	background: #1e73be;
+	padding: 10px;
+	color: #ffff;
+
 }
