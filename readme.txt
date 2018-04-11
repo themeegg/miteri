@@ -7,8 +7,8 @@ Contributors: themeegg
 Tags: grid-layout, one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header,  custom-logo, custom-menu, editor-style, featured-images, footer-widgets, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, blog, education, entertainment, holiday, photography, news
 
 Requires at least: 4.3
-Tested up to: 4.9.4
-Stable tag: 1.0.9
+Tested up to: 4.9.5
+Stable tag: 1.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -64,6 +64,10 @@ Other Images:
 2. You wll find different options in customizer
 
 == Changelog ==
+= 1.1.0 - 2018/04/11 =
+	* Added - Skin option added
+	* Added - Minor design issue fixed
+
 = 1.0.9 - 2018/03/11 =
 	* Added - Parallax Header Image
 	* Added - Parallax Post Banner Image

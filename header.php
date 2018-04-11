@@ -34,7 +34,7 @@
             ?>
 	<header id="masthead" class="site-header <?php echo (get_header_image()) ? ' has-header-image ' : ''; echo esc_attr($header_class); ?>" role="banner">
 		<?php get_template_part( 'template-parts/header/header', 'layout' ); ?>
-		
+
 
 	</header><!-- #masthead -->
 
