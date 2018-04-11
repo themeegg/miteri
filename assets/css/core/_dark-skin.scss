@@ -49,6 +49,7 @@ body.dark_skin{
 	}
 
 	@media (min-width: 960px){
+		.main-navigation .main-menu > li.current-menu-item > a,
 		.main-navigation > ul > li > a:hover {
 		    background: $dark_link_color;
 		}

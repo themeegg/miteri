@@ -49,7 +49,7 @@
 						<div class="site-info">
 							<a href="<?php echo esc_url( esc_html__( 'https://wordpress.org/', 'miteri' ) ); ?>"><?php printf( esc_html__( 'Powered by %s', 'miteri' ), 'WordPress' ); ?></a>
 							<span class="sep"> - </span>
-							<a href="<?php echo esc_url( esc_html__( 'http://themeegg.com', 'miteri' ) ); ?>" rel="nofollow"><?php printf( esc_html__( 'Miteri by %s', 'miteri' ), 'ThemeEgg' ); ?></a>
+							<a href="<?php echo esc_url( esc_html__( 'http://themeegg.com', 'miteri' ) ); ?>"><?php printf( esc_html__( 'Miteri by %s', 'miteri' ), 'ThemeEgg' ); ?></a>
 						</div><!-- .site-info -->
 					</div>
 				</div>

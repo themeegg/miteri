@@ -3593,6 +3593,7 @@ body.dark_skin {
     background: #111;
     border-bottom-color: #000; }
   @media (min-width: 960px) {
+    body.dark_skin .main-navigation .main-menu > li.current-menu-item > a,
     body.dark_skin .main-navigation > ul > li > a:hover {
       background: #ff8400; } }
   body.dark_skin .widget-title,

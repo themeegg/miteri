@@ -568,7 +568,6 @@ function miteri_theme_customizer( $wp_customize ) {
     $wp_customize->add_setting( 'website_layout', array(
         'default'           => 'box',
         'sanitize_callback' => 'sanitize_miteri_website_layout',
-
     ) );
 
     $wp_customize->add_control( 'website_layout', array(
@@ -586,7 +585,7 @@ function miteri_theme_customizer( $wp_customize ) {
     ));
 
     $wp_customize->add_control('website_skin', array(
-        'label' => esc_html__('Website Layout', 'miteri'),
+        'label' => esc_html__('Website Skin', 'miteri'),
         'section' => 'layout_section',
         'type' => 'radio',
         'choices' => array(
