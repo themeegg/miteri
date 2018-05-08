@@ -35,7 +35,8 @@ if (!function_exists('miteri_setup')) :
         // Enable support for Post Thumbnail
         add_theme_support('post-thumbnails');
         add_image_size('miteri-cp-520x400', 520, 400, true);
-        add_image_size('miteri-cp-700x700', 450, 450, true);
+        add_image_size('miteri-cp-450x450', 450, 450, true);
+        add_image_size('miteri-cp-700x700', 700, 700, true);
         add_image_size('miteri-cp-800x500', 800, 500, true);
         add_image_size('miteri-cp-1200x580', 1200, 580, true);
 

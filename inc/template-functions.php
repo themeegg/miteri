@@ -194,3 +194,5 @@ if(!function_exists('miteri_add_class_to_body')){
 }
 
 add_filter('body_class', 'miteri_add_class_to_body');
+
+add_filter( 'wp_calculate_image_srcset', '__return_false' );
