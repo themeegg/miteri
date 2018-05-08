@@ -8,7 +8,7 @@ Tags: grid-layout, one-column, two-columns, three-columns, four-columns, left-si
 
 Requires at least: 4.3
 Tested up to: 4.9.5
-Stable tag: 1.1.0
+Stable tag: 1.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -64,6 +64,9 @@ Other Images:
 2. You wll find different options in customizer
 
 == Changelog ==
+= 1.1.1 - 2018/05/08 =
+	* Improvements - Skin design improvement
+	* Improvements - Other minor design improvements
 = 1.1.0 - 2018/04/11 =
 	* Added - Skin option added
 	* Added - Minor design issue fixed
