@@ -2688,6 +2688,9 @@ Blog Box
       color: #214d74;
       background: #fff; }
 
+input, button, select, textarea {
+  max-width: 100%; }
+
 button,
 input[type="button"],
 input[type="reset"],
@@ -3584,13 +3587,29 @@ body.dark_skin {
   body.dark_skin h1, body.dark_skin h2, body.dark_skin .blog-box .widget-title, .blog-box body.dark_skin .widget-title, body.dark_skin .blog-box .widget-title, body.dark_skin h3, body.dark_skin h4, body.dark_skin h5, body.dark_skin h6 {
     color: #fff; }
   body.dark_skin .top-header {
-    background: #111; }
+    background: #1b1b1b; }
     body.dark_skin .top-header .breaking-news-title {
       background: #a14242; }
+  body.dark_skin .mobile-sidebar {
+    background-color: #1b1b1b; }
+    body.dark_skin .mobile-sidebar .main-navigation ul {
+      background-color: transparent; }
+    body.dark_skin .mobile-sidebar .main-navigation a {
+      color: #fff; }
+    body.dark_skin .mobile-sidebar .main-navigation li:hover a {
+      background: transparent; }
+    body.dark_skin .mobile-sidebar .main-navigation .dropdown-toggle {
+      color: #fff;
+      background: transparent; }
+      body.dark_skin .mobile-sidebar .main-navigation .dropdown-toggle.toggled-on, body.dark_skin .mobile-sidebar .main-navigation .dropdown-toggle:focus, body.dark_skin .mobile-sidebar .main-navigation .dropdown-toggle:hover, body.dark_skin .mobile-sidebar .main-navigation .dropdown-toggle:active {
+        color: #fff;
+        background: transparent; }
+        body.dark_skin .mobile-sidebar .main-navigation .dropdown-toggle.toggled-on:after, body.dark_skin .mobile-sidebar .main-navigation .dropdown-toggle:focus:after, body.dark_skin .mobile-sidebar .main-navigation .dropdown-toggle:hover:after, body.dark_skin .mobile-sidebar .main-navigation .dropdown-toggle:active:after {
+          background: transparent; }
   body.dark_skin .site-header {
     background-color: #000; }
   body.dark_skin .main-navbar {
-    background: #111;
+    background: #1b1b1b;
     border-bottom-color: #000; }
   @media (min-width: 960px) {
     body.dark_skin .main-navigation .main-menu > li.current-menu-item > a,
@@ -3631,7 +3650,7 @@ body.dark_skin {
     box-shadow: none; }
   body.dark_skin .post-wrapper article,
   body.dark_skin aside.sidebar .widget {
-    background: #111; }
+    background: #1b1b1b; }
   body.dark_skin .post-wrapper article:hover {
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3), 0 10px 10px rgba(0, 0, 0, 0.2); }
   body.dark_skin .card {
@@ -3647,10 +3666,13 @@ body.dark_skin {
     body.dark_skin .tags-links a:hover, body.dark_skin .cat-links a:hover {
       border-color: #da6565;
       background: #da6565; }
+  body.dark_skin .entry-meta .posted-on a,
+  body.dark_skin .entry-meta .author a {
+    color: #fff; }
   body.dark_skin .posts-navigation .nav-previous:before {
     border-left: none; }
   body.dark_skin .content-area {
-    background: #111;
+    background: #1b1b1b;
     color: #fff;
     margin-bottom: 30px; }
   body.dark_skin .entry-footer,
@@ -3695,7 +3717,7 @@ body.dark_skin {
   body.dark_skin .site-credits {
     color: #ccc; }
   body.dark_skin .footer-copy {
-    background: #111; }
+    background: #1b1b1b; }
 
 /*
 Theme Name: Miteri
