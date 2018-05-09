@@ -2144,7 +2144,7 @@ aside.sidebar li {
   aside.sidebar {
     width: 33.33333333%;
     float: left;
-    padding: 0 15px;
+    padding: 0 15px 0 0;
     box-sizing: border-box; } }
 
 aside.sidebar .widget {

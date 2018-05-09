@@ -646,6 +646,13 @@ body {
         min-height: 400px;
         background: transparent;
     }
+    .css-parallax-window {
+        min-height: 400px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
     .has_featured_image{
         position:relative;
         img{
@@ -886,7 +893,7 @@ aside.sidebar {
     @media(min-width: 960px) {
         width: 33.33333333%;
         float: right;
-        padding: 0 15px;
+        padding: 0 0 0 15px;
         box-sizing: border-box;
     }
     .widget {

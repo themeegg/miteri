@@ -373,7 +373,7 @@ function miteri_theme_customizer( $wp_customize ) {
         'section'         => 'post_section',
         'type'            => 'radio',
         'choices'         => array(
-            'fimg-classic'   => esc_html__( 'Large Featured Image', 'miteri' ),
+            'fimg-classic'   => esc_html__( 'Classic Featured Image', 'miteri' ),
             'fimg-fullwidth' => esc_html__( 'Full width Featured Image', 'miteri' ),
             'fimg-banner'    => esc_html__( 'Full width with parallax Image', 'miteri' ),
         ),

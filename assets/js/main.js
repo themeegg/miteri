@@ -224,6 +224,22 @@ jQuery(document).ready(function () {
                 animateIn: 'slideInUp'
             });
 
+    jQuery(".format-gallery.owl-carousel").owlCarousel({
+                items: 1,
+                dots: false,
+                autoplay: false,
+                autoplayTimeout: 5000, // Default is 5000
+                smartSpeed: 250, // Default is 250
+                autoplayHoverPause: false,
+                loop: true,
+                margin:0,
+                autoHeight: true,
+                mouseDrag: false,
+                touchDrag: false,
+                //animateOut: 'slideOutUp',
+                //animateIn: 'slideInUp'
+            });
+
     $(window).on('scroll', function () {
         if ($('.miteri-lazy-loading').length) {
             ajax_load_function();
