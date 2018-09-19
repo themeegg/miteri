@@ -1415,6 +1415,22 @@ body.mobile-sidebar-active:before {
     .miteri-social-icons-wrapper .social-link .fa-youtube, .miteri-social-icons-wrapper .social-link .fa-youtube-play, .miteri-social-icons-wrapper .social-link .fa-youtube-square {
       background-color: #C52F30; }
 
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  outline: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 7px 9px 6px 9px;
+  border-radius: 50%; }
+
+#myBtn:hover {
+  background-color: #ff8400; }
+
 .hentry,
 .no-results {
   padding: 15px;
@@ -2190,6 +2206,26 @@ body.home .content-area, body.archive .content-area, body.search .content-area {
 
 .site-info a {
   color: #fff; }
+
+.parallax {
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: -55px;
+  margin-right: -54px;
+  max-width: auto; }
+  @media (max-width: 720px) {
+    .parallax {
+      margin-left: 0px;
+      margin-right: 0px; } }
+
+.parallax-content {
+  width: 100%;
+  margin: 0 auto;
+  color: #FFF;
+  padding-top: 5px; }
 
 .widget {
   margin: 0 0 30px;
@@ -3036,6 +3072,11 @@ object {
   font-style: italic;
   padding-top: 5px; }
 
+@media screen and (max-width: 1340px) {
+  .parallax {
+    margin-left: 0px;
+    margin-right: 0px; } }
+
 @media screen and (min-width: 600px) {
   /* Grid */
   .col-sm-1,
@@ -3253,7 +3294,8 @@ object {
   .sidebar-content .content-area {
     float: right; }
   .sidebar-content .sidebar {
-    float: left; }
+    float: left;
+    padding: 0 15px 0 0; }
   .content-sidebar .page-title,
   .sidebar-content .page-title {
     text-align: left; }

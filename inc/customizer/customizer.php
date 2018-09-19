@@ -102,6 +102,22 @@ function miteri_theme_customizer( $wp_customize ) {
         'section' => 'general_section',
         'type'    => 'checkbox',
     ) );
+    /**
+    * Back to top
+    * @package Theme Egg
+    * @subpackage Miteri 
+    * @since 1.1.2
+    */  
+    $wp_customize->add_setting( 'back_to_top_button', array(
+        'default'           => 0,
+        'sanitize_callback' => 'miteri_sanitize_checkbox',
+    ) );
+
+    $wp_customize->add_control( 'back_to_top_button', array(
+        'label'   => esc_html__( 'Display Back To Top Button?', 'miteri' ),
+        'section' => 'general_section',
+        'type'    => 'checkbox',
+    ) );
 
     // Header Section
     $wp_customize->add_section( 'header_section', array(
@@ -296,9 +312,11 @@ function miteri_theme_customizer( $wp_customize ) {
         'panel'       => 'miteri_panel',
         'description' => esc_html__( 'Settings for Category, Tag, Search and Archive Pages.', 'miteri' ),
     ) );
+    
+
 
     // Archives Post Layout
-    $wp_customize->add_setting( 'archive_layout', array(
+    $wp_customize->add_setting('archive_layout', array(
         'default'           => 'list',
         'sanitize_callback' => 'miteri_sanitize_choices',
     ) );
@@ -342,6 +360,34 @@ function miteri_theme_customizer( $wp_customize ) {
         'section' => 'archive_section',
         'type'    => 'number',
     ) );
+    /**
+    * parallax footer
+    * @package Theme Egg
+    * @subpackage Miteri
+    * @since 1.1.2
+    */
+    // Footer section
+    $wp_customize->add_section( 'miteri_footer_section', array(
+        'title'       => esc_html__( 'Footer', 'miteri' ),
+        'priority'    => 10,
+        'panel'       => 'miteri_panel',
+        'description' => esc_html__( 'Settings for footer section.', 'miteri' ),
+    ) );
+    $wp_customize->add_setting( 'miteri_parallax_footer', array(
+        'sanitize_callback' => 'esc_url',
+    ) );
+
+   $wp_customize->add_control(
+       new WP_Customize_Image_Control(
+           $wp_customize,
+           'miteri_parallax_footer',
+           array(
+               'label'      => __('Upload Image For Parallax Footer Background', 'miteri' ),
+               'section'    => 'miteri_footer_section',
+               'settings'   => 'miteri_parallax_footer',
+           )
+       )
+   );
 
     // Post Section
     $wp_customize->add_section( 'post_section', array(

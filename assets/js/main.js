@@ -143,7 +143,25 @@ var $ = jQuery;
             menuToggle.removeAttr('aria-controls');
         }
     }
-
+    /**
+    * megamenu overflow fix js
+    * @package Theme Egg
+    * @subpackage Miteri 
+    * @since 1.1.2
+    */
+    function megamenuOverflow_fix(){
+        var sub_menu = $('#main-menu .sub-menu');
+        sub_menu.each(function(){
+            var __this = $(this);
+            var submenu_position = __this.position();
+            var submenu_position_offset = __this.offset();
+            var leftValue = submenu_position_offset.left;
+            if(leftValue>900){
+                __this.addClass('reverse');
+            } 
+            else{}
+        });
+    }
 })(jQuery);
 
 var miteri_lazyload_offset = 0;
@@ -266,4 +284,21 @@ jQuery(document).ready(function () {
     });
 
 });
+/**
+* Back to top
+* @package Theme Egg
+* @subpackage Miteri 
+* @since 1.1.2
+*/
+window.onscroll = function() {scrollFunction()};
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+function topFunction() {
+    jQuery("html, body").animate({scrollTop: 0}, "slow");
+}
 

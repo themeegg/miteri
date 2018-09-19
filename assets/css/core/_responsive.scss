@@ -1,3 +1,10 @@
+@media screen and (max-width:1340px){
+	.parallax{
+		margin-left:0px;
+		margin-right:0px;
+	}
+}
+
 @media screen and (min-width: 600px) {
 	/* Grid */
 	.col-sm-1,
@@ -302,6 +309,7 @@
 	}
 	.sidebar-content .sidebar {
 		float: left;
+		padding: 0 15px 0 0;
 	}
 	.content-sidebar .page-title,
 	.sidebar-content .page-title {

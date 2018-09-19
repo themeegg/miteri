@@ -7,8 +7,8 @@ Contributors: themeegg
 Tags: grid-layout, one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header,  custom-logo, custom-menu, editor-style, featured-images, footer-widgets, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, blog, education, entertainment, holiday, photography, news
 
 Requires at least: 4.3
-Tested up to: 4.9.5
-Stable tag: 1.1.1
+Tested up to: 4.9.8
+Stable tag: 1.1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -64,6 +64,11 @@ Other Images:
 2. You wll find different options in customizer
 
 == Changelog ==
+= 1.1.2 - 2018/9/19 =
+	* Added - Parallax Footer
+	* Added - Back to the top button
+	* Improvements - Other minor design improvements.
+	* Fix - Content and sidebar overlapping when sidebar is set to left position
 = 1.1.1 - 2018/05/08 =
 	* Improvements - Skin design improvement
 	* Improvements - Other minor design improvements
