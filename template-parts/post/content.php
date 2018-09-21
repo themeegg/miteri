@@ -27,9 +27,16 @@ $archive_sidebar_position = get_theme_mod('archive_sidebar_position', 'content-s
 		<?php endif; ?>
 		<h2 class="entry-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 	</div><!-- .entry-header -->
-
-	<?php if ( has_post_thumbnail() ) : ?>
-		<figure class="entry-thumbnail">
+	<?php if ( has_post_thumbnail() ) : 
+ 		/**
+    	* Image animation on hover
+    	* @package Theme Egg
+    	* @subpackage Miteri 
+    	* @since 1.1.2
+    	*/ 
+		?>
+		<?php $hoverEffect = get_theme_mod('miteri_image_animation_on_hover'); ?>
+		<figure class="entry-thumbnail <?php if($hoverEffect) {echo 'hovereffect';} else{echo '';} ?>">
 			<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
 				<?php if ( is_home() && $blog_sidebar_position == 'content-fullwidth' ) {
 					the_post_thumbnail('miteri-cp-1200x580');

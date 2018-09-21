@@ -118,6 +118,22 @@ function miteri_theme_customizer( $wp_customize ) {
         'section' => 'general_section',
         'type'    => 'checkbox',
     ) );
+    /**
+    * Image animation on hover
+    * @package Theme Egg
+    * @subpackage Miteri 
+    * @since 1.1.2
+    */  
+    $wp_customize->add_setting( 'miteri_image_animation_on_hover', array(
+        'default'           => 0,
+        'sanitize_callback' => 'miteri_sanitize_checkbox',
+    ) );
+
+    $wp_customize->add_control( 'miteri_image_animation_on_hover', array(
+        'label'   => esc_html__( 'Display Hover Animation on Image?', 'miteri' ),
+        'section' => 'general_section',
+        'type'    => 'checkbox',
+    ) );
 
     // Header Section
     $wp_customize->add_section( 'header_section', array(

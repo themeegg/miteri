@@ -33,7 +33,7 @@
 		*/	
 		$backtotop = get_theme_mod('back_to_top_button');
 		if($backtotop){ ?>
-			<button onclick="topFunction()" id="myBtn" title="Go to top"><i style="font-size:20px;" class="fa fa-arrow-up"></i></button><?php 
+			<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-angle-up"></i></button><?php 
 		} ?>
 		<a class="skip-link screen-reader-text" href="#main"><?php esc_html_e( 'Skip to content', 'miteri' ); ?></a>
 		<?php
