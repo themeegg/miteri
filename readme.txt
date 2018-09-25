@@ -64,7 +64,7 @@ Other Images:
 2. You wll find different options in customizer
 
 == Changelog ==
-= 1.1.2 - 2018/9/19 =
+= 1.1.2 - 2018/9/25 =
 	* Added - Parallax Footer
 	* Added - Back to the top button
 	* Improvements - Other minor design improvements.
